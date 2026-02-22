@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "U Channel (Rohani)",
+    "logo": "https://ui-avatars.com/api/?name=UC&background=800080&color=fff&rounded=true&bold=true",
+    "url": "https://ams.juraganstreaming.com:5443/LiveApp/streams/uchannel1.m3u8"
+  },
+  {
+    "id": 2,
+    "name": "TVRI Nasional",
+    "logo": "https://ui-avatars.com/api/?name=TV&background=0000FF&color=fff&rounded=true&bold=true",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8"
+  },
+  {
+    "id": 3,
+    "name": "Trans TV",
+    "logo": "https://ui-avatars.com/api/?name=TR&background=00008B&color=fff&rounded=true&bold=true",
+    "url": "https://video.detik.com/transtv/smil:transtv.smil/index.m3u8"
+  },
+  {
+    "id": 4,
+    "name": "Trans7",
+    "logo": "https://ui-avatars.com/api/?name=T7&background=00008B&color=fff&rounded=true&bold=true",
+    "url": "https://video.detik.com/trans7/smil:trans7.smil/index.m3u8"
+  },
+  {
+    "id": 5,
+    "name": "Kompas TV",
+    "logo": "https://ui-avatars.com/api/?name=K&background=00BFFF&color=fff&rounded=true&bold=true",
+    "url": "https://kompastv-live.cdn.emtek.city/live/smil:kompastv.smil/playlist.m3u8"
+  },
+  {
+    "id": 6,
+    "name": "Metro TV",
+    "logo": "https://ui-avatars.com/api/?name=M&background=000080&color=F5B041&rounded=true&bold=true",
+    "url": "https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8"
+  },
+  {
+    "id": 7,
+    "name": "tvOne",
+    "url": "http://202.80.222.20/cdn/iptv/Tvod/001/channel2000018/1024.m3u8",
+    "logo": "https://ui-avatars.com/api/?name=TV1&background=FF0000&color=fff&rounded=true&bold=true"
+  },
+  {
+    "id": 8,
+    "name": "ANTV",
+    "url": "http://202.80.222.20/cdn/iptv/Tvod/001/channel2000022/1024.m3u8",
+    "logo": "https://ui-avatars.com/api/?name=AN&background=FF0000&color=fff&rounded=true&bold=true"
+  }
+]
