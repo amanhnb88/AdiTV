@@ -8,9 +8,10 @@ return (async () => {
 
   try {
     const deviceId = generateFakeDeviceId();
+    // Menggunakan identitas Dalvik agar tidak ditolak CDN
     const userAgent = 'Dalvik/2.1.0 (Linux; U; Android 10; K Build/QP1A.190711.020)';
 
-    // 1. Minta Token
+    // 1. Minta Token Visitor Android
     const visitorRes = await fetch(`https://api.rctiplus.com/api/v1/visitor?platform=android&device_id=${deviceId}`, {
       headers: { 'User-Agent': userAgent }
     });
