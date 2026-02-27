@@ -3,107 +3,65 @@ import re
 import os
 import sys
 
-API_KEY = "jFFhGYfZzrEgaPIGmFOVttQzCNbvqJHb"
-
+# Daftar channel dan link halamannya
 CHANNELS = [
-    {"id": "1", "name": "RCTI", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RCTI_logo_2015.svg/512px-RCTI_logo_2015.svg.png"},
-    {"id": "2", "name": "MNCTV", "logo": "https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png"},
-    {"id": "3", "name": "GTV", "logo": "https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png"},
-    {"id": "4", "name": "iNews", "logo": "https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png"}
+    {"id": "rcti", "name": "RCTI", "url": "https://m.rctiplus.com/tv/rcti", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RCTI_logo_2015.svg/512px-RCTI_logo_2015.svg.png"},
+    {"id": "mnctv", "name": "MNCTV", "url": "https://m.rctiplus.com/tv/mnctv", "logo": "https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png"},
+    {"id": "gtv", "name": "GTV", "url": "https://m.rctiplus.com/tv/gtv", "logo": "https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png"},
+    {"id": "inews", "name": "iNews", "url": "https://m.rctiplus.com/tv/inews", "logo": "https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png"}
 ]
 
-def get_fresh_token():
-    print("[*] Mencoba mengambil token baru secara otomatis dari web...")
-    
-    # 💡 Header yang diperkuat agar tembus blokir Anti-Bot
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
-        'Accept-Language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7',
-        'Connection': 'keep-alive',
-        'Upgrade-Insecure-Requests': '1',
-        'Sec-Fetch-Dest': 'document',
-        'Sec-Fetch-Mode': 'navigate',
-        'Sec-Fetch-Site': 'none',
-        'Sec-Fetch-User': '?1'
-    }
-    
-    try:
-        session = requests.Session()
-        res = session.get('https://m.rctiplus.com/', headers=headers, timeout=15)
-        
-        # 1. Coba ambil dari Cookies
-        token = session.cookies.get('visitor_token')
-        if token:
-            print("    [✓] Token berhasil didapatkan dari Cookie!")
-            return token
-            
-        # 2. Coba ambil dari HTML
-        match = re.search(r'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9\.[a-zA-Z0-9\-_]+\.[a-zA-Z0-9\-_]+', res.text)
-        if match:
-            print("    [✓] Token berhasil diekstrak dari HTML!")
-            return match.group(0)
-            
-        print("    [!] Gagal menemukan token.")
-        print(f"    [Debug] HTTP Status Code: {res.status_code}")
-        print(f"    [Debug] Cuplikan HTML: {res.text[:200]}...")
-        return None
-    except Exception as e:
-        print(f"    [X] Error koneksi: {e}")
-        return None
-
 def update_m3u_file():
-    print("🚀 Memulai proses update token MNC Group via API...")
+    print("🚀 Memulai proses update token via Web Scraping (Metode Langsung)...")
     
-    AUTH_TOKEN = get_fresh_token()
-    
-    if not AUTH_TOKEN:
-        print("\n❌ FATAL: Tidak dapat mengambil token baru. Proses dihentikan.")
-        print("💡 Penyebab: Server GitHub (Amerika) kemungkinan diblokir oleh RCTI+ (Geo-block).")
-        sys.exit(1)
-        
+    # Header user-agent Android
     user_agent = 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36'
     
-    api_headers = {
-        'accept': 'application/json',
-        'apikey': API_KEY,
-        'authorization': AUTH_TOKEN,
-        'user-agent': user_agent,
-        'referer': 'https://m.rctiplus.com/'
+    headers = {
+        'User-Agent': user_agent,
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+        'Connection': 'keep-alive',
     }
     
     playlist_content = "#EXTM3U\n"
-    links_found = 0 
+    links_found = 0
     
     for ch in CHANNELS:
-        print(f"[*] Menghubungi API untuk {ch['name']}...")
-        api_url = f"https://toutatis.rctiplus.com/video/live/api/v1/live/{ch['id']}/url?appierid=8d357e4a-f0b7-432f-ad9f-9610ac2f3afc"
-        
+        print(f"[*] Membedah halaman web {ch['name']}...")
         try:
-            response = requests.get(api_url, headers=api_headers, timeout=10)
-            match = re.search(r'(https://[^"\'\s]+\.m3u8[^"\'\s]*)', response.text)
+            # 1. Mengambil HTML halaman web
+            response = requests.get(ch['url'], headers=headers, timeout=15)
+            
+            # 2. Membersihkan karakter escape JSON (mengubah \/ menjadi /)
+            html_text = response.text.replace('\\/', '/')
+            
+            # 3. Regex Kuat: Mencari link yang diawali https, diakhiri m3u8, dan memiliki auth_key
+            match = re.search(r'(https://[^"\'\s<>]+\.m3u8\?auth_key=[a-zA-Z0-9\-]+)', html_text)
             
             if match:
                 stream_url = match.group(1)
-                print(f"    [✓] Sukses mendapatkan link!")
+                print(f"    [✓] Sukses menemukan link m3u8!")
                 links_found += 1
                 
+                # 4. Menyusun format M3U yang dilengkapi User-Agent & Referer untuk ExoPlayer
                 playlist_content += f'#EXTINF:-1 tvg-id="{ch["name"]}" tvg-name="{ch["name"]}" tvg-logo="{ch["logo"]}" group-title="TV Nasional", {ch["name"]}\n'
                 playlist_content += f'#EXTVLCOPT:http-referrer=https://m.rctiplus.com/\n'
                 playlist_content += f'#EXTVLCOPT:http-user-agent={user_agent}\n'
                 playlist_content += f'{stream_url}\n'
             else:
-                print(f"    [!] Gagal mendapatkan link. Response: {response.text[:100]}...")
+                print(f"    [!] Gagal menemukan link m3u8 di dalam HTML {ch['name']}.")
+                
         except Exception as e:
-            print(f"    [X] Error: {e}")
-    
+            print(f"    [X] Error koneksi saat memproses {ch['name']}: {e}")
+            
+    # 5. SAFETY CHECK (Hanya simpan jika minimal ada 1 link yang ketemu)
     if links_found > 0:
         os.makedirs('streams', exist_ok=True)
         with open('streams/id.m3u', 'w', encoding='utf-8') as file:
             file.write(playlist_content)
-        print("\n✅ Berhasil memperbarui playlist!")
+        print(f"\n✅ Selesai! Berhasil mengekstrak {links_found} channel.")
     else:
-        print("\n❌ GAGAL TOTAL: File m3u lama tidak dihapus.")
+        print("\n❌ GAGAL TOTAL: Tidak ada link yang ditemukan. File m3u lama aman.")
         sys.exit(1)
 
 if __name__ == "__main__":
