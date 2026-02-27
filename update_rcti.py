@@ -1,69 +1,99 @@
 import requests
+import json
 import re
 import os
 import sys
+import uuid
 
-# Daftar channel dan link halamannya
+# Daftar channel dengan ID API yang baru kita temukan dan Logo Resmi yang sudah diperbaiki
 CHANNELS = [
-    {"id": "rcti", "name": "RCTI", "url": "https://m.rctiplus.com/tv/rcti", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RCTI_logo_2015.svg/512px-RCTI_logo_2015.svg.png"},
-    {"id": "mnctv", "name": "MNCTV", "url": "https://m.rctiplus.com/tv/mnctv", "logo": "https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png"},
-    {"id": "gtv", "name": "GTV", "url": "https://m.rctiplus.com/tv/gtv", "logo": "https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png"},
-    {"id": "inews", "name": "iNews", "url": "https://m.rctiplus.com/tv/inews", "logo": "https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png"}
+    {"api_id": 1, "name": "RCTI", "logo": "https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png"},
+    {"api_id": 2, "name": "MNCTV", "logo": "https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png"},
+    {"api_id": 3, "name": "GTV", "logo": "https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png"},
+    {"api_id": 4, "name": "iNews", "logo": "https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png"}
 ]
 
 def update_m3u_file():
-    print("🚀 Memulai proses update token via Web Scraping (Versi Update)...")
+    print("🚀 Memulai proses update token via API Internal (Jalur VIP)...")
     
-    # Header user-agent Android yang diperbarui agar lebih natural
-    user_agent = 'Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36'
+    user_agent = 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36'
     
-    headers = {
+    # Menggunakan Session() agar bot kita bisa menyimpan "Cookie" layaknya browser HP
+    session = requests.Session()
+    
+    # 1. Langkah Pertama: Memancing Server untuk memberikan Token JWT
+    print("[*] Memancing Token JWT (Surat Izin) dari server...")
+    jwt_token = None
+    try:
+        session.get("https://m.rctiplus.com/", headers={'User-Agent': user_agent}, timeout=15)
+        # Ambil token dari cookie yang tersimpan otomatis
+        jwt_token = session.cookies.get('visitor_token')
+        
+        if not jwt_token:
+            print("    [!] Cookie tidak ditemukan, menggunakan token cadangan...")
+            jwt_token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2aWQiOjAsInRva2VuIjoiMjM0OTM2NGE5ZTgzMjQ1NyIsInBsIjoibXdlYiIsImRldmljZV9pZCI6IjJkYmQwZDJiLWRjMTYtNGIwOS1iYTA1LWUwYjQzNzc5NDhkOSIsImx0eXBlIjoiIiwiaWF0IjoxNzcyMTU5NDMyfQ.F_CwnDc1Bpen9o7uJNTP1lCqwcHMbY48rZOftlRYLC0"
+        else:
+            print("    [✓] Sukses mendapatkan Token JWT baru!")
+    except Exception as e:
+        print(f"    [X] Error saat mengambil token: {e}")
+        jwt_token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2aWQiOjAsInRva2VuIjoiMjM0OTM2NGE5ZTgzMjQ1NyIsInBsIjoibXdlYiIsImRldmljZV9pZCI6IjJkYmQwZDJiLWRjMTYtNGIwOS1iYTA1LWUwYjQzNzc5NDhkOSIsImx0eXBlIjoiIiwiaWF0IjoxNzcyMTU5NDMyfQ.F_CwnDc1Bpen9o7uJNTP1lCqwcHMbY48rZOftlRYLC0"
+
+    # 2. Menyiapkan Kunci untuk Membuka Pintu API
+    api_headers = {
         'User-Agent': user_agent,
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
-        'Accept-Language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7',
-        'Connection': 'keep-alive',
-        'Referer': 'https://www.google.com/' # Pura-pura datang dari pencarian Google
+        'Accept': 'application/json, text/plain, */*',
+        'Origin': 'https://m.rctiplus.com',
+        'Referer': 'https://m.rctiplus.com/',
+        'apikey': 'jFFhGYfZzrEgaPIGmFOVttQzCNbvqJHb', # Kunci statis dari hasil intaianmu
+        'authorization': jwt_token # Kunci dinamis (KTP)
     }
-    
+
     playlist_content = "#EXTM3U\n"
     links_found = 0
-    
+    # Membuat ID perangkat palsu agar terlihat natural
+    dummy_device_id = str(uuid.uuid4())
+
     for ch in CHANNELS:
-        print(f"[*] Membedah halaman web {ch['name']}...")
+        print(f"[*] Menembus API untuk channel {ch['name']} (ID: {ch['api_id']})...")
+        api_url = f"https://toutatis.rctiplus.com/video/live/api/v1/live/{ch['api_id']}/url?appierid={dummy_device_id}"
+        
         try:
-            response = requests.get(ch['url'], headers=headers, timeout=15)
-            # Tampilkan status HTTP untuk mengecek apakah koneksi berhasil atau diblokir
-            print(f"    [-] Status HTTP: {response.status_code}")
+            res_api = session.get(api_url, headers=api_headers, timeout=15)
             
-            html_text = response.text.replace('\\/', '/')
-            
-            # Regex Fleksibel: Mengambil seluruh URL m3u8 dan segala parameter di belakangnya
-            match = re.search(r'(https://[^"\'\s<>]+\.m3u8[^"\'\s<>]*)', html_text)
-            
-            if match:
-                stream_url = match.group(1)
-                print(f"    [✓] Sukses menemukan link m3u8!")
-                links_found += 1
+            if res_api.status_code == 200:
+                data = res_api.json()
                 
-                playlist_content += f'#EXTINF:-1 tvg-id="{ch["name"]}" tvg-name="{ch["name"]}" tvg-logo="{ch["logo"]}" group-title="TV Nasional", {ch["name"]}\n'
-                playlist_content += f'#EXTVLCOPT:http-referrer=https://m.rctiplus.com/\n'
-                playlist_content += f'#EXTVLCOPT:http-user-agent={user_agent}\n'
-                playlist_content += f'{stream_url}\n'
+                # Menggunakan regex untuk mencari m3u8 di dalam tumpukan JSON
+                match = re.search(r'(https://[^"\'\s<>]+\.m3u8[^"\'\s<>]*)', json.dumps(data))
+                
+                if match:
+                    # Bersihkan jika ada format \/
+                    stream_url = match.group(1).replace('\\/', '/')
+                    print(f"    [✓] Berhasil mengekstrak link video {ch['name']}!")
+                    links_found += 1
+                    
+                    # Menyusun M3U untuk dibaca di aplikasimu
+                    playlist_content += f'#EXTINF:-1 tvg-id="{ch["name"]}" tvg-name="{ch["name"]}" tvg-logo="{ch["logo"]}" group-title="TV Nasional", {ch["name"]}\n'
+                    playlist_content += f'#EXTVLCOPT:http-referrer=https://m.rctiplus.com/\n'
+                    playlist_content += f'#EXTVLCOPT:http-user-agent={user_agent}\n'
+                    playlist_content += f'{stream_url}\n'
+                else:
+                    print(f"    [!] Pintu terbuka, tapi link m3u8 tidak ada di dalam data JSON.")
             else:
-                print(f"    [!] Gagal menemukan link m3u8. Struktur web mungkin berubah.")
-                # Cetak 200 karakter pertama dari HTML untuk bahan analisa kita nanti
-                print(f"    [!] Cuplikan HTML: {html_text[:200]}...")
+                print(f"    [X] Gagal. API Menolak. Status HTTP: {res_api.status_code}")
+                print(f"    [X] Pesan dari server: {res_api.text}")
                 
         except Exception as e:
             print(f"    [X] Error koneksi saat memproses {ch['name']}: {e}")
-            
+
+    # 3. Tahap Akhir: Simpan file id.m3u
     if links_found > 0:
         os.makedirs('streams', exist_ok=True)
         with open('streams/id.m3u', 'w', encoding='utf-8') as file:
             file.write(playlist_content)
-        print(f"\n✅ Selesai! Berhasil mengekstrak {links_found} channel.")
+        print(f"\n✅ Selesai! Berhasil meretas {links_found} channel lewat API.")
     else:
-        print("\n❌ GAGAL TOTAL: Tidak ada link yang ditemukan. File m3u lama aman.")
+        print("\n❌ GAGAL TOTAL: Tidak ada satupun link yang berhasil di-extract.")
         sys.exit(1)
 
 if __name__ == "__main__":
