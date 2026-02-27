@@ -2,18 +2,16 @@
 #EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png" group-title="TV Nasional", RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://1s1.rctiplus.id/s-rcti-sdi.m3u8?auth_key=1772230950-b5081ce5d66f8b3bff46ea3309eba52b-0-39e3f2669be1504a0f464c62e4d91f66
+https://1s1.rctiplus.id/s-rcti-sdi.m3u8?auth_key=1772231865-8b01f22e6be64ddcc55a58f62491cadc-0-dfd2eb558fdbb06ec468205b19adcaa2
 #EXTINF:-1 tvg-id="MNCTV" tvg-name="MNCTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png" group-title="TV Nasional", MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://1s1.rctiplus.id/s-mnctv-sdi.m3u8?auth_key=1772230951-ff9b38cc164007a7cca7f5bbc9d8c280-0-e65a1fc2d7434c86098e6653fc03c5fa
+https://1s1.rctiplus.id/s-mnctv-sdi.m3u8?auth_key=1772231865-4d7281ca0a209ea72b6cab2f55105281-0-db7bd7ac99f43c2afa62572ab044284b
 #EXTINF:-1 tvg-id="GTV" tvg-name="GTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png" group-title="TV Nasional", GTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://1s1.rctiplus.id/s-gtv-sdi.m3u8?auth_key=1772230951-a2be6170f61b56e76df31b7a48e1f3c8-0-f9579ed6bfef0e30c3c908188281aa51
+https://1s1.rctiplus.id/s-gtv-sdi.m3u8?auth_key=1772231865-caf5caee277045cbabf106f3ffd980fb-0-b1e0c4f7a41c3672442e174b077f625e
 #EXTINF:-1 tvg-id="iNews" tvg-name="iNews" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png" group-title="TV Nasional", iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://1s1.rctiplus.id/s-inews-sdi.m3u8?auth_key=1772230951-91a9d036f5066beedc61e13027bc7fa8-0-5bacfd988415dc438e3a4fc9a5d0466f
-#EXTINF:-1 tvg-id="Indosiar" tvg-name="Indosiar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Indosiar_2014.svg/512px-Indosiar_2014.svg.png" group-title="TV Nasional", Indosiar
-https://warningfm.github.io/v3/live/str/id/575eeb9f08dc8db.m3u8
+https://1s1.rctiplus.id/s-inews-sdi.m3u8?auth_key=1772231866-f82773ce6c3f8cf03f412bf8d329d410-0-3a39ba98e20adf481197f124f84184a8
