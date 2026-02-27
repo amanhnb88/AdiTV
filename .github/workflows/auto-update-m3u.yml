@@ -1,11 +1,9 @@
-name: Auto Update Token RCTI
+name: Auto Update Token Saluran TV
 
 on:
   schedule:
-    # Berjalan otomatis setiap 3 jam
     - cron: '0 */3 * * *'
   workflow_dispatch:
-    # Memungkinkan kamu menjalankan script ini secara manual kapan saja dari tab "Actions"
 
 jobs:
   update-m3u:
@@ -23,13 +21,13 @@ jobs:
       - name: 📦 Install module requests
         run: pip install requests
 
-      - name: 🚀 Jalankan Bot Update Token
-        run: python update_rcti.py
+      - name: 🚀 Jalankan Bot Update Token Gabungan
+        # Ubah bagian ini untuk menjalankan skrip baru kita
+        run: python update_channels.py
 
       - name: 💾 Simpan (Commit) Perubahan ke GitHub
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
           git add streams/id.m3u
-          # Cek apakah ada perubahan, jika ada lakukan commit, jika tidak abaikan
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update token RCTI m3u8" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update token RCTI & GTV" && git push)
