@@ -1,9 +1,1 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RCTI_logo_2015.svg/512px-RCTI_logo_2015.svg.png" group-title="TV Nasional", RCTI
-https://1s1.rctiplus.id/anevia1/rcti-sdi.m3u8?auth_key=1772208170-332286d4d2a5549cca6591c1db9d48e8-0-c87ae0fbc8388b5204c00c8223ab1c5c
-#EXTINF:-1 tvg-id="MNCTV" tvg-name="MNCTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png" group-title="TV Nasional", MNCTV
-https://1s1.rctiplus.id/anevia2/mnctv-sdi.m3u8?auth_key=1772208171-c9173fbb7752cfe057972a3b5f89eafc-0-c5896321e50f0f982f2fcb5c009c5977
-#EXTINF:-1 tvg-id="GTV" tvg-name="GTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png" group-title="TV Nasional", GTV
-https://1s1.rctiplus.id/anevia3/gtv-sdi.m3u8?auth_key=1772208171-30d6d714148e0e96935ac3cce6cc3dba-0-f7b1f284517f48390887a428f07e0e23
-#EXTINF:-1 tvg-id="iNews" tvg-name="iNews" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png" group-title="TV Nasional", iNews
-https://1s1.rctiplus.id/anevia4/inews-sdi.m3u8?auth_key=1772208173-df1599eb850ee4d86460493a283bdfd9-0-054988f2204a7c434d9afc8c0853f944
