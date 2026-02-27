@@ -12,15 +12,17 @@ CHANNELS = [
 ]
 
 def update_m3u_file():
-    print("🚀 Memulai proses update token via Web Scraping (Metode Langsung)...")
+    print("🚀 Memulai proses update token via Web Scraping (Versi Update)...")
     
-    # Header user-agent Android
-    user_agent = 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36'
+    # Header user-agent Android yang diperbarui agar lebih natural
+    user_agent = 'Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36'
     
     headers = {
         'User-Agent': user_agent,
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+        'Accept-Language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7',
         'Connection': 'keep-alive',
+        'Referer': 'https://www.google.com/' # Pura-pura datang dari pencarian Google
     }
     
     playlist_content = "#EXTM3U\n"
@@ -29,32 +31,32 @@ def update_m3u_file():
     for ch in CHANNELS:
         print(f"[*] Membedah halaman web {ch['name']}...")
         try:
-            # 1. Mengambil HTML halaman web
             response = requests.get(ch['url'], headers=headers, timeout=15)
+            # Tampilkan status HTTP untuk mengecek apakah koneksi berhasil atau diblokir
+            print(f"    [-] Status HTTP: {response.status_code}")
             
-            # 2. Membersihkan karakter escape JSON (mengubah \/ menjadi /)
             html_text = response.text.replace('\\/', '/')
             
-            # 3. Regex Kuat: Mencari link yang diawali https, diakhiri m3u8, dan memiliki auth_key
-            match = re.search(r'(https://[^"\'\s<>]+\.m3u8\?auth_key=[a-zA-Z0-9\-]+)', html_text)
+            # Regex Fleksibel: Mengambil seluruh URL m3u8 dan segala parameter di belakangnya
+            match = re.search(r'(https://[^"\'\s<>]+\.m3u8[^"\'\s<>]*)', html_text)
             
             if match:
                 stream_url = match.group(1)
                 print(f"    [✓] Sukses menemukan link m3u8!")
                 links_found += 1
                 
-                # 4. Menyusun format M3U yang dilengkapi User-Agent & Referer untuk ExoPlayer
                 playlist_content += f'#EXTINF:-1 tvg-id="{ch["name"]}" tvg-name="{ch["name"]}" tvg-logo="{ch["logo"]}" group-title="TV Nasional", {ch["name"]}\n'
                 playlist_content += f'#EXTVLCOPT:http-referrer=https://m.rctiplus.com/\n'
                 playlist_content += f'#EXTVLCOPT:http-user-agent={user_agent}\n'
                 playlist_content += f'{stream_url}\n'
             else:
-                print(f"    [!] Gagal menemukan link m3u8 di dalam HTML {ch['name']}.")
+                print(f"    [!] Gagal menemukan link m3u8. Struktur web mungkin berubah.")
+                # Cetak 200 karakter pertama dari HTML untuk bahan analisa kita nanti
+                print(f"    [!] Cuplikan HTML: {html_text[:200]}...")
                 
         except Exception as e:
             print(f"    [X] Error koneksi saat memproses {ch['name']}: {e}")
             
-    # 5. SAFETY CHECK (Hanya simpan jika minimal ada 1 link yang ketemu)
     if links_found > 0:
         os.makedirs('streams', exist_ok=True)
         with open('streams/id.m3u', 'w', encoding='utf-8') as file:
