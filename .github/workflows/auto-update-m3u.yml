@@ -1,6 +1,9 @@
 name: Auto Update Token RCTI
 
 on:
+  push:
+    branches:
+      - main # Ini yang baru: Robot otomatis jalan setiap kali kamu menyimpan perubahan di branch main
   schedule:
     # Berjalan otomatis setiap 3 jam
     - cron: '0 */3 * * *'
