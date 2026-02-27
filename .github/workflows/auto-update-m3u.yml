@@ -7,6 +7,10 @@ on:
   workflow_dispatch:
     # Memungkinkan kamu menjalankan script ini secara manual kapan saja dari tab "Actions"
 
+# TAMPILKAN IZIN SECARA EKSPLISIT DI SINI (SOLUSI ERROR 403)
+permissions:
+  contents: write
+
 jobs:
   update-m3u:
     runs-on: ubuntu-latest
