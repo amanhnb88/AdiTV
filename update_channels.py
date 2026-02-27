@@ -15,7 +15,6 @@ def ambil_token(url):
     }
     try:
         res = requests.get(url, headers=headers, cookies=cookies, timeout=10)
-        # Regex ini dibuat general agar bisa menangkap semua channel MNC
         match = re.search(r'(https://[a-zA-Z0-9\-\.]+\.rctiplus\.id/[a-zA-Z0-9\-]+\.m3u8\?auth_key=[a-zA-Z0-9\-]+)', res.text)
         if match:
             return match.group(1)
@@ -26,16 +25,19 @@ def ambil_token(url):
 def update_all_channels():
     print("Memulai proses penarikan token...")
     
-    # 1. Ambil token masing-masing
     rcti_url = ambil_token('https://m.rctiplus.com/tv/rcti')
     gtv_url = ambil_token('https://m.rctiplus.com/tv/gtv')
-    # Kalau mau tambah MNCTV, cukup tambahkan baris ini:
-    # mnctv_url = ambil_token('https://m.rctiplus.com/tv/mnctv')
     
-    # 2. Siapkan wadah untuk teks M3U
+    # === SISTEM PENGAMAN BARU ===
+    # Jika kedua token gagal diambil, batalkan proses!
+    if not rcti_url and not gtv_url:
+        print("🚨 GAGAL: Tidak ada token yang berhasil diambil.")
+        print("File id.m3u TIDAK AKAN diubah agar tidak menjadi kosong.")
+        return
+    # ============================
+    
     m3u_content = ""
     
-    # 3. Cetak format RCTI jika token didapat
     if rcti_url:
         print(f"Berhasil mendapat token RCTI!")
         m3u_content += f"""#EXTINF:-1 tvg-id="RCTI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/RCTI_logo.svg/1200px-RCTI_logo.svg.png" group-title="MNC Group", RCTI
@@ -44,7 +46,6 @@ def update_all_channels():
 {rcti_url}\n
 """
 
-    # 4. Cetak format GTV jika token didapat
     if gtv_url:
         print(f"Berhasil mendapat token GTV!")
         m3u_content += f"""#EXTINF:-1 tvg-id="GTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/GTV_logo_%282006%29.svg/1200px-GTV_logo_%282006%29.svg.png" group-title="MNC Group", GTV
@@ -53,10 +54,7 @@ def update_all_channels():
 {gtv_url}\n
 """
 
-    # 5. Tulis ulang ke dalam file streams/id.m3u
-    # Pastikan foldernya ada
     os.makedirs('streams', exist_ok=True)
-    
     with open('streams/id.m3u', 'w', encoding='utf-8') as file:
         file.write(m3u_content.strip())
         
