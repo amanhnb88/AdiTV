@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png" group-title="TV Nasional", RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://1s1.rctiplus.id/s-rcti-sdi.m3u8?auth_key=1772307425-95a89d88ce6072fc4b5e449275951045-0-986dc60578c276c3dd8d27ae6f84c185
+https://1s1.rctiplus.id/s-rcti-sdi.m3u8?auth_key=1772308448-6c40a1c1316b34ee4470c89cfdab1745-0-1c02f648628fd377ba9ee1a0d2dc95ed
 #EXTINF:-1 tvg-id="MNCTV" tvg-name="MNCTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png" group-title="TV Nasional", MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
@@ -10,8 +10,8 @@ https://vodkk23.rctiplus.id/hls/2023-12/kk_sportstar_loop.m3u8
 #EXTINF:-1 tvg-id="GTV" tvg-name="GTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png" group-title="TV Nasional", GTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://1s1.rctiplus.id/s-gtv-sdi.m3u8?auth_key=1772307425-3d2d4828c273fcef1d454719e1e2f05d-0-b8543a394622c394c1e125750a75e7f9
+https://1s1.rctiplus.id/s-gtv-sdi.m3u8?auth_key=1772308448-048fc7d1f22aa60cfd8dde4e7cc8432f-0-11f791d45ec21a50077b29f84da18c15
 #EXTINF:-1 tvg-id="iNews" tvg-name="iNews" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png" group-title="TV Nasional", iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://1s1.rctiplus.id/s-inews-sdi.m3u8?auth_key=1772307426-78c6a545811f3f5f7eed82727978d763-0-c1f995b45f47151bd76f3442a90ebf71
+https://1s1.rctiplus.id/s-inews-sdi.m3u8?auth_key=1772308448-d8d497c8c50f2a0c3c69a93b120784f2-0-2456b0adaa8ff7f799945b35e028e488
