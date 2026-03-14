@@ -2,16 +2,16 @@
 #EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png" group-title="TV Nasional", RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://nt-linier.rctiplus.id/live/rcti.m3u8
+https://vodkk24.rctiplus.id/hls/2025-01/kk_060125_tutupan_channel_rctiplus.m3u8
 #EXTINF:-1 tvg-id="MNCTV" tvg-name="MNCTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png" group-title="TV Nasional", MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://nt-linier.rctiplus.id/live/mnctv.m3u8
+https://1s1.rctiplus.id/s-mnctv-sdi.m3u8?auth_key=1773524089-9d77189d2b2ee230de8056fbab48fa1d-0-a1eee8c304997288dfe01f69401f3536
 #EXTINF:-1 tvg-id="GTV" tvg-name="GTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png" group-title="TV Nasional", GTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://nt-linier.rctiplus.id/live/gtv.m3u8
+https://1s1.rctiplus.id/s-gtv-sdi.m3u8?auth_key=1773524090-b2930d7a6b16180135dccbbc247e615d-0-15f9261149e65c505eadf903dbdeb3eb
 #EXTINF:-1 tvg-id="iNews" tvg-name="iNews" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png" group-title="TV Nasional", iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://nt-linier.rctiplus.id/live/inewstv.m3u8
+https://1s1.rctiplus.id/s-inews-sdi.m3u8?auth_key=1773524090-4843caeafad87ac88403a0144ccf2ca9-0-0e66532ea87929e7522b6a652152121a
