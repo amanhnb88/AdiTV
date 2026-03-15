@@ -7,27 +7,27 @@ https://op-group1-swiftservehd-1.dens.tv/h/h10/01.m3u8|User-Agent=Mozilla/5.0 (L
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h12/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1 tvg-id="h18" tvg-name="Channel h18" tvg-logo="https://ui-avatars.com/api/?name=h18&background=000&color=fff" group-title="Dens TV Unknown", Channel h18
+#EXTINF:-1 tvg-id="CinemaWorld" tvg-name="CinemaWorld" tvg-logo="https://ui-avatars.com/api/?name=Cinema+World&background=random&color=fff" group-title="Film/Movies", CinemaWorld
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h18/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1 tvg-id="h23" tvg-name="Channel h23" tvg-logo="https://ui-avatars.com/api/?name=h23&background=000&color=fff" group-title="Dens TV Unknown", Channel h23
+#EXTINF:-1 tvg-id="NHKWorldJapan" tvg-name="NHK World Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/NHK_World-Japan_logo.svg/1200px-NHK_World-Japan_logo.svg.png" group-title="Berita Internasional", NHK World Japan
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h23/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1 tvg-id="h24" tvg-name="Channel h24" tvg-logo="https://ui-avatars.com/api/?name=h24&background=000&color=fff" group-title="Dens TV Unknown", Channel h24
+#EXTINF:-1 tvg-id="MagnaChannel" tvg-name="Magna Channel" tvg-logo="https://ui-avatars.com/api/?name=Magna+Channel&background=random&color=fff" group-title="TV Nasional", Magna Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h24/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1 tvg-id="h29" tvg-name="Channel h29" tvg-logo="https://ui-avatars.com/api/?name=h29&background=000&color=fff" group-title="Dens TV Unknown", Channel h29
+#EXTINF:-1 tvg-id="CNA" tvg-name="CNA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/CNA_logo.svg/1200px-CNA_logo.svg.png" group-title="Berita Internasional", CNA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h29/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1 tvg-id="h37" tvg-name="Channel h37" tvg-logo="https://ui-avatars.com/api/?name=h37&background=000&color=fff" group-title="Dens TV Unknown", Channel h37
+#EXTINF:-1 tvg-id="NusantaraTV" tvg-name="Nusantara TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Nusantara_TV_logo.svg/1200px-Nusantara_TV_logo.svg.png" group-title="TV Nasional", Nusantara TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h37/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1 tvg-id="h39" tvg-name="Channel h39" tvg-logo="https://ui-avatars.com/api/?name=h39&background=000&color=fff" group-title="Dens TV Unknown", Channel h39
+#EXTINF:-1 tvg-id="BNChannel" tvg-name="BN Channel" tvg-logo="https://ui-avatars.com/api/?name=BN+Channel&background=random&color=fff" group-title="TV Nasional", BN Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h39/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
@@ -35,7 +35,7 @@ https://op-group1-swiftservehd-1.dens.tv/h/h39/01.m3u8|User-Agent=Mozilla/5.0 (L
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h40/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1 tvg-id="h121" tvg-name="Channel h121" tvg-logo="https://ui-avatars.com/api/?name=h121&background=000&color=fff" group-title="Dens TV Unknown", Channel h121
+#EXTINF:-1 tvg-id="FranceInfo" tvg-name="France Info" tvg-logo="https://ui-avatars.com/api/?name=France+Info&background=random&color=fff" group-title="Berita Internasional", France Info
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h121/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
@@ -51,7 +51,7 @@ https://op-group1-swiftservehd-1.dens.tv/h/h203/01.m3u8|User-Agent=Mozilla/5.0 (
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h207/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1 tvg-id="h208" tvg-name="Channel h208" tvg-logo="https://ui-avatars.com/api/?name=h208&background=000&color=fff" group-title="Dens TV Unknown", Channel h208
+#EXTINF:-1 tvg-id="BTV" tvg-name="BTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/BTV_logo_2023.svg/1200px-BTV_logo_2023.svg.png" group-title="TV Nasional", BTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h208/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
@@ -83,15 +83,15 @@ https://op-group1-swiftservehd-1.dens.tv/h/h223/01.m3u8|User-Agent=Mozilla/5.0 (
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h225/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1 tvg-id="h226" tvg-name="Channel h226" tvg-logo="https://ui-avatars.com/api/?name=h226&background=000&color=fff" group-title="Dens TV Unknown", Channel h226
+#EXTINF:-1 tvg-id="RTNews" tvg-name="RT News" tvg-logo="https://ui-avatars.com/api/?name=RT+News&background=random&color=fff" group-title="Berita Internasional", RT News
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h226/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1 tvg-id="h227" tvg-name="Channel h227" tvg-logo="https://ui-avatars.com/api/?name=h227&background=000&color=fff" group-title="Dens TV Unknown", Channel h227
+#EXTINF:-1 tvg-id="LemonCream" tvg-name="Lemon Cream" tvg-logo="https://ui-avatars.com/api/?name=Lemon+Cream&background=random&color=fff" group-title="Kuliner", Lemon Cream
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h227/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1 tvg-id="h233" tvg-name="Channel h233" tvg-logo="https://ui-avatars.com/api/?name=h233&background=000&color=fff" group-title="Dens TV Unknown", Channel h233
+#EXTINF:-1 tvg-id="QuranTadabbur" tvg-name="Quran Tadabbur" tvg-logo="https://ui-avatars.com/api/?name=Quran+Tadabbur&background=random&color=fff" group-title="Religi", Quran Tadabbur
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h233/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
@@ -107,11 +107,11 @@ https://op-group1-swiftservehd-1.dens.tv/h/h235/01.m3u8|User-Agent=Mozilla/5.0 (
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h236/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1 tvg-id="h244" tvg-name="Channel h244" tvg-logo="https://ui-avatars.com/api/?name=h244&background=000&color=fff" group-title="Dens TV Unknown", Channel h244
+#EXTINF:-1 tvg-id="ZumbaToning" tvg-name="Zumba Toning" tvg-logo="https://ui-avatars.com/api/?name=Zumba+Toning&background=random&color=fff" group-title="Lifestyle", Zumba Toning
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h244/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1 tvg-id="h246" tvg-name="Channel h246" tvg-logo="https://ui-avatars.com/api/?name=h246&background=000&color=fff" group-title="Dens TV Unknown", Channel h246
+#EXTINF:-1 tvg-id="PRSRGames" tvg-name="PRSR Games" tvg-logo="https://ui-avatars.com/api/?name=PRSR+Games&background=random&color=fff" group-title="Gaming", PRSR Games
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h246/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
@@ -119,7 +119,7 @@ https://op-group1-swiftservehd-1.dens.tv/h/h246/01.m3u8|User-Agent=Mozilla/5.0 (
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h248/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1 tvg-id="h250" tvg-name="Channel h250" tvg-logo="https://ui-avatars.com/api/?name=h250&background=000&color=fff" group-title="Dens TV Unknown", Channel h250
+#EXTINF:-1 tvg-id="Knowledge" tvg-name="Knowledge" tvg-logo="https://ui-avatars.com/api/?name=Knowledge&background=random&color=fff" group-title="Dokumenter", Knowledge
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h250/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
