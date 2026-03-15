@@ -1,305 +1,125 @@
 #EXTM3U
-#EXTINF:-1, Channel h10
+#EXTINF:-1 tvg-id="RTV" tvg-name="RTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/RTV_logo.svg/1200px-RTV_logo.svg.png" group-title="TV Nasional", RTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h10/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h11
+https://op-group1-swiftservehd-1.dens.tv/h/h10/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="MetroTV" tvg-name="Metro TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Metro_TV_2010.svg/1200px-Metro_TV_2010.svg.png" group-title="TV Nasional", Metro TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h11/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h12
+https://op-group1-swiftservehd-1.dens.tv/h/h12/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h18" tvg-name="Channel h18" tvg-logo="https://ui-avatars.com/api/?name=h18&background=000&color=fff" group-title="Dens TV Unknown", Channel h18
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h12/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h14
+https://op-group1-swiftservehd-1.dens.tv/h/h18/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h23" tvg-name="Channel h23" tvg-logo="https://ui-avatars.com/api/?name=h23&background=000&color=fff" group-title="Dens TV Unknown", Channel h23
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h14/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h15
+https://op-group1-swiftservehd-1.dens.tv/h/h23/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h24" tvg-name="Channel h24" tvg-logo="https://ui-avatars.com/api/?name=h24&background=000&color=fff" group-title="Dens TV Unknown", Channel h24
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h15/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h16
+https://op-group1-swiftservehd-1.dens.tv/h/h24/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h29" tvg-name="Channel h29" tvg-logo="https://ui-avatars.com/api/?name=h29&background=000&color=fff" group-title="Dens TV Unknown", Channel h29
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h16/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h18
+https://op-group1-swiftservehd-1.dens.tv/h/h29/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h37" tvg-name="Channel h37" tvg-logo="https://ui-avatars.com/api/?name=h37&background=000&color=fff" group-title="Dens TV Unknown", Channel h37
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h18/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h19
+https://op-group1-swiftservehd-1.dens.tv/h/h37/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h39" tvg-name="Channel h39" tvg-logo="https://ui-avatars.com/api/?name=h39&background=000&color=fff" group-title="Dens TV Unknown", Channel h39
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h19/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h20
+https://op-group1-swiftservehd-1.dens.tv/h/h39/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="tvOne" tvg-name="tvOne" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TvOne_logo.svg/1200px-TvOne_logo.svg.png" group-title="TV Nasional", tvOne
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h20/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h21
+https://op-group1-swiftservehd-1.dens.tv/h/h40/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h121" tvg-name="Channel h121" tvg-logo="https://ui-avatars.com/api/?name=h121&background=000&color=fff" group-title="Dens TV Unknown", Channel h121
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h21/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h22
+https://op-group1-swiftservehd-1.dens.tv/h/h121/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h202" tvg-name="Channel h202" tvg-logo="https://ui-avatars.com/api/?name=h202&background=000&color=fff" group-title="Dens TV Unknown", Channel h202
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h22/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h23
+https://op-group1-swiftservehd-1.dens.tv/h/h202/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h203" tvg-name="Channel h203" tvg-logo="https://ui-avatars.com/api/?name=h203&background=000&color=fff" group-title="Dens TV Unknown", Channel h203
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h23/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h24
+https://op-group1-swiftservehd-1.dens.tv/h/h203/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="MojiTV" tvg-name="Moji TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Moji_logo.svg/1200px-Moji_logo.svg.png" group-title="TV Nasional", Moji TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h24/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h28
+https://op-group1-swiftservehd-1.dens.tv/h/h207/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h208" tvg-name="Channel h208" tvg-logo="https://ui-avatars.com/api/?name=h208&background=000&color=fff" group-title="Dens TV Unknown", Channel h208
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h28/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h29
+https://op-group1-swiftservehd-1.dens.tv/h/h208/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h209" tvg-name="Channel h209" tvg-logo="https://ui-avatars.com/api/?name=h209&background=000&color=fff" group-title="Dens TV Unknown", Channel h209
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h29/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h37
+https://op-group1-swiftservehd-1.dens.tv/h/h209/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h210" tvg-name="Channel h210" tvg-logo="https://ui-avatars.com/api/?name=h210&background=000&color=fff" group-title="Dens TV Unknown", Channel h210
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h37/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h38
+https://op-group1-swiftservehd-1.dens.tv/h/h210/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="SCTV" tvg-name="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/SCTV_logo.svg/1200px-SCTV_logo.svg.png" group-title="TV Nasional", SCTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h38/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h39
+https://op-group1-swiftservehd-1.dens.tv/h/h217/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h221" tvg-name="Channel h221" tvg-logo="https://ui-avatars.com/api/?name=h221&background=000&color=fff" group-title="Dens TV Unknown", Channel h221
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h39/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h40
+https://op-group1-swiftservehd-1.dens.tv/h/h221/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h222" tvg-name="Channel h222" tvg-logo="https://ui-avatars.com/api/?name=h222&background=000&color=fff" group-title="Dens TV Unknown", Channel h222
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h40/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h95
+https://op-group1-swiftservehd-1.dens.tv/h/h222/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h223" tvg-name="Channel h223" tvg-logo="https://ui-avatars.com/api/?name=h223&background=000&color=fff" group-title="Dens TV Unknown", Channel h223
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h95/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h96
+https://op-group1-swiftservehd-1.dens.tv/h/h223/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h225" tvg-name="Channel h225" tvg-logo="https://ui-avatars.com/api/?name=h225&background=000&color=fff" group-title="Dens TV Unknown", Channel h225
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h96/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h114
+https://op-group1-swiftservehd-1.dens.tv/h/h225/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h226" tvg-name="Channel h226" tvg-logo="https://ui-avatars.com/api/?name=h226&background=000&color=fff" group-title="Dens TV Unknown", Channel h226
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h114/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h121
+https://op-group1-swiftservehd-1.dens.tv/h/h226/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h227" tvg-name="Channel h227" tvg-logo="https://ui-avatars.com/api/?name=h227&background=000&color=fff" group-title="Dens TV Unknown", Channel h227
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h121/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h141
+https://op-group1-swiftservehd-1.dens.tv/h/h227/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h233" tvg-name="Channel h233" tvg-logo="https://ui-avatars.com/api/?name=h233&background=000&color=fff" group-title="Dens TV Unknown", Channel h233
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h141/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h142
+https://op-group1-swiftservehd-1.dens.tv/h/h233/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="KompasTV" tvg-name="Kompas TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Kompas_TV_2016.svg/1200px-Kompas_TV_2016.svg.png" group-title="TV Nasional", Kompas TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h142/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h143
+https://op-group1-swiftservehd-1.dens.tv/h/h234/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="Indosiar" tvg-name="Indosiar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Indosiar_logo.svg/1200px-Indosiar_logo.svg.png" group-title="TV Nasional", Indosiar
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h143/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h150
+https://op-group1-swiftservehd-1.dens.tv/h/h235/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h236" tvg-name="Channel h236" tvg-logo="https://ui-avatars.com/api/?name=h236&background=000&color=fff" group-title="Dens TV Unknown", Channel h236
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h150/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h201
+https://op-group1-swiftservehd-1.dens.tv/h/h236/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h244" tvg-name="Channel h244" tvg-logo="https://ui-avatars.com/api/?name=h244&background=000&color=fff" group-title="Dens TV Unknown", Channel h244
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h201/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h202
+https://op-group1-swiftservehd-1.dens.tv/h/h244/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h246" tvg-name="Channel h246" tvg-logo="https://ui-avatars.com/api/?name=h246&background=000&color=fff" group-title="Dens TV Unknown", Channel h246
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h202/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h203
+https://op-group1-swiftservehd-1.dens.tv/h/h246/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h248" tvg-name="Channel h248" tvg-logo="https://ui-avatars.com/api/?name=h248&background=000&color=fff" group-title="Dens TV Unknown", Channel h248
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h203/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h204
+https://op-group1-swiftservehd-1.dens.tv/h/h248/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+#EXTINF:-1 tvg-id="h250" tvg-name="Channel h250" tvg-logo="https://ui-avatars.com/api/?name=h250&background=000&color=fff" group-title="Dens TV Unknown", Channel h250
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h204/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h205
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h205/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h206
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h206/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h207
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h207/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h208
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h208/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h209
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h209/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h210
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h210/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h211
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h211/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h212
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h212/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h213
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h213/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h214
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h214/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h215
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h215/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h216
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h216/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h217
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h217/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h218
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h218/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h219
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h219/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h220
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h220/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h221
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h221/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h222
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h222/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h223
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h223/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h224
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h224/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h225
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h225/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h226
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h226/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h227
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h227/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h228
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h228/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h229
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h229/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h231
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h231/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h232
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h232/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h233
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h233/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h234
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h234/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h235
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h235/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h236
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h236/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h237
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h237/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h238
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h238/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h239
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h239/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h240
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h240/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h241
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h241/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h242
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h242/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h243
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h243/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h244
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h244/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h245
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h245/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h246
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h246/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h247
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h247/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h248
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h248/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h249
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h249/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
-#EXTINF:-1, Channel h250
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-http://op-group1-swiftservehd-1.dens.tv/h/h250/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
+https://op-group1-swiftservehd-1.dens.tv/h/h250/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
