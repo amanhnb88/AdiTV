@@ -2,8 +2,8 @@ name: Auto Update Token RCTI
 
 on:
   schedule:
-    # Berjalan otomatis setiap 5 menit
-    - cron: '*/5 * * * *'
+    # Berjalan otomatis setiap 2 menit
+    - cron: '*/2 * * * *'
   workflow_dispatch:
     # Memungkinkan kamu menjalankan script ini secara manual kapan saja dari tab "Actions"
 
