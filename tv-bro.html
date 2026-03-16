@@ -5,53 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generator M3U BitTV Bro</title>
     <style>
-        body { font-family: sans-serif; background-color: #222; color: #fff; padding: 20px; text-align: center; }
-        textarea { width: 100%; max-width: 800px; height: 400px; background-color: #111; color: #00ffcc; border: 2px solid #555; padding: 10px; font-family: monospace; }
-        button { padding: 10px 20px; font-size: 16px; background-color: #00ffcc; color: #000; border: none; cursor: pointer; font-weight: bold; border-radius: 5px; margin-bottom: 20px;}
-        button:hover { background-color: #00cca3; }
+        body { 
+            font-family: sans-serif; 
+            background-color: #222; 
+            color: #fff; 
+            padding: 20px; 
+            text-align: center; 
+        }
+        textarea { 
+            width: 100%; 
+            max-width: 800px; 
+            height: 400px; 
+            background-color: #111; 
+            color: #00ffcc; 
+            border: 2px solid #555; 
+            padding: 10px; 
+            font-family: monospace; 
+        }
+        button { 
+            padding: 10px 20px; 
+            font-size: 16px; 
+            background-color: #00ffcc; 
+            color: #000; 
+            border: none; 
+            cursor: pointer; 
+            font-weight: bold; 
+            border-radius: 5px; 
+            margin-bottom: 20px;
+        }
+        button:hover { 
+            background-color: #00cca3; 
+        }
     </style>
 </head>
 <body>
 
     <h2>🛠️ Generator Playlist BitTV ke M3U</h2>
-    <p>Klik tombol di bawah untuk mengambil data terbaru dari GitHub dan meraciknya menjadi M3U.</p>
+    <p>Klik tombol di bawah untuk mengambil data terbaru dari GitHub dan meraciknya menjadi format M3U.</p>
     
     <button onclick="generateM3U()">Ambil & Ubah ke M3U</button>
     <br>
+    
     <textarea id="hasil-m3u" placeholder="Hasil kode M3U akan muncul di sini..."></textarea>
 
     <script>
-        // Ini adalah link Github induk yang kamu temukan!
-        const linkInduk = 'https://raw.githubusercontent.com/Bit-tv1/b/main/b.json';
+        // Link Github asli milikmu (JSON sumber)
+        const linkAsli = 'https://raw.githubusercontent.com/Bit-tv1/b/main/b.json';
+        
+        // Jasa Titip (CORS Proxy) agar tidak diblokir oleh browser di HP kamu
+        const linkProxy = 'https://api.allorigins.win/raw?url=' + encodeURIComponent(linkAsli);
 
         function generateM3U() {
             const textArea = document.getElementById('hasil-m3u');
-            textArea.value = "Sedang mengambil data dari server...";
+            
+            // Memberikan pesan loading agar kita tahu skrip sedang berjalan
+            textArea.value = "Sedang mengambil data menggunakan jalur Proxy CORS, tunggu sebentar bro...";
 
-            // Meminta data JSON ke Github
-            fetch(linkInduk)
-                .then(response => response.json())
+            // Meminta data menggunakan link Proxy
+            fetch(linkProxy)
+                .then(response => {
+                    // Cek apakah server proxy berhasil membalas
+                    if (!response.ok) {
+                        throw new Error('Gagal mengambil data dari proxy bro.');
+                    }
+                    return response.json();
+                })
                 .then(data => {
                     // Mulai meracik teks M3U
                     let m3uText = "#EXTM3U\n";
 
-                    // Melakukan perulangan untuk setiap channel di dalam JSON
+                    // Melakukan perulangan untuk setiap channel di dalam file JSON
                     data.forEach(channel => {
-                        // Menambahkan nama channel
+                        // 1. Menambahkan nama channel
                         m3uText += `#EXTINF:-1 tvg-name="${channel.name}" group-title="BitTV Otomatis", ${channel.name}\n`;
                         
-                        // Menambahkan seragam rahasia (User-Agent) agar tidak diblokir
+                        // 2. Menambahkan seragam rahasia (User-Agent) agar tidak diblokir server
                         m3uText += `#EXTVLCOPT:http-user-agent=okhttp/4.9.2\n`;
                         
-                        // Menambahkan link videonya dengan User-Agent di belakangnya
+                        // 3. Menambahkan link videonya dengan User-Agent di belakangnya
                         m3uText += `${channel.url}|User-Agent=okhttp/4.9.2\n`;
                     });
 
-                    // Menampilkan hasilnya ke layar
+                    // Menampilkan hasil akhirnya ke layar (di dalam kotak textarea)
                     textArea.value = m3uText;
                 })
                 .catch(error => {
-                    textArea.value = "Yah error bro: " + error;
+                    // Menangkap dan menampilkan pesan error jika terjadi masalah jaringan
+                    textArea.value = "Yah error bro: " + error.message;
                 });
         }
     </script>
