@@ -1,4 +1,7 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="BitTV" tvg-name="BitTV Kustom" tvg-logo="https://ui-avatars.com/api/?name=Bit+TV&background=000&color=00ffcc" group-title="TV Tangkapan Bro", BitTV Kustom
+#EXTVLCOPT:http-user-agent=okhttp/4.9.2
+https://v2.bittv.my.id/getb/T3N3cnhZNW1uU2ZpNWZlbmNlR3Yxdz09|User-Agent=okhttp/4.9.2
 #EXTINF:-1 tvg-id="RTV" tvg-name="RTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/RTV_logo.svg/1200px-RTV_logo.svg.png" group-title="TV Nasional", RTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
@@ -12,7 +15,7 @@ https://op-group1-swiftservehd-1.dens.tv/h/h12/01.m3u8|User-Agent=Mozilla/5.0 (L
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h18/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
 #EXTINF:-1 tvg-id="NHKWorldJapan" tvg-name="NHK World Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/NHK_World-Japan_logo.svg/1200px-NHK_World-Japan_logo.svg.png" group-title="Berita Internasional", NHK World Japan
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h23/01.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36&Referer=https://www.dens.tv/
 #EXTINF:-1 tvg-id="MagnaChannel" tvg-name="Magna Channel" tvg-logo="https://ui-avatars.com/api/?name=Magna+Channel&background=random&color=fff" group-title="TV Nasional", Magna Channel
