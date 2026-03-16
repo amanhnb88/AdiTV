@@ -3,63 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generator M3U BitTV Bro</title>
+    <title>Generator M3U Offline Bro</title>
     <style>
-        body { font-family: sans-serif; background-color: #222; color: #fff; padding: 20px; text-align: center; }
-        textarea { width: 100%; max-width: 800px; height: 400px; background-color: #111; color: #00ffcc; border: 2px solid #555; padding: 10px; font-family: monospace; }
-        button { padding: 10px 20px; font-size: 16px; background-color: #00ffcc; color: #000; border: none; cursor: pointer; font-weight: bold; border-radius: 5px; margin-bottom: 20px;}
+        body { font-family: sans-serif; background-color: #1e1e1e; color: #fff; padding: 20px; text-align: center; }
+        .container { display: flex; flex-direction: column; gap: 15px; max-width: 800px; margin: 0 auto; }
+        textarea { width: 100%; height: 250px; background-color: #2d2d2d; color: #00ffcc; border: 2px solid #555; padding: 10px; font-family: monospace; border-radius: 8px; box-sizing: border-box;}
+        button { padding: 15px; font-size: 18px; background-color: #00ffcc; color: #000; border: none; cursor: pointer; font-weight: bold; border-radius: 8px; transition: 0.3s;}
         button:hover { background-color: #00cca3; }
+        h3 { margin: 5px 0; color: #ffeb3b; }
     </style>
 </head>
 <body>
 
-    <h2>🛠️ Generator Playlist BitTV ke M3U</h2>
-    <p>Menggunakan Jalur VIP Anti-Blokir (jsDelivr CDN)</p>
-    
-    <button onclick="generateM3U()">Ambil & Ubah ke M3U</button>
-    <br>
-    <textarea id="hasil-m3u" placeholder="Hasil kode M3U akan muncul di sini..."></textarea>
+    <h2>🛠️ Generator M3U Anti-Blokir</h2>
+    <p>Cara pakai: Salin teks JSON dari PCAPdroid, tempel di kotak atas, lalu klik tombol.</p>
+
+    <div class="container">
+        <div>
+            <h3>1. Paste JSON Mentah di Sini:</h3>
+            <textarea id="input-json" placeholder='Contoh: [{"name": "MNC", "url": "https://..."}]'></textarea>
+        </div>
+
+        <button onclick="prosesM3U()">🚀 UBAH KE M3U SEKARANG</button>
+
+        <div>
+            <h3>2. Hasil Playlist M3U:</h3>
+            <textarea id="output-m3u" placeholder="Hasilnya akan muncul di sini bro..."></textarea>
+        </div>
+    </div>
 
     <script>
-        // Kita ubah link GitHub mentah menjadi link CDN VIP (jsDelivr)
-        // Jalur ini otomatis mengatasi masalah blokir dan CORS!
-        const linkVIP = 'https://cdn.jsdelivr.net/gh/Bit-tv1/b@main/b.json';
+        function prosesM3U() {
+            const inputTeks = document.getElementById('input-json').value;
+            const outputKotak = document.getElementById('output-m3u');
 
-        function generateM3U() {
-            const textArea = document.getElementById('hasil-m3u');
-            textArea.value = "Mencoba menarik data via jalur VIP, tunggu sebentar bro...";
+            if (inputTeks.trim() === "") {
+                alert("Kotak atas masih kosong bro! Paste dulu datanya.");
+                return;
+            }
 
-            fetch(linkVIP)
-                .then(async response => {
-                    // Kita ambil datanya sebagai teks biasa dulu untuk diperiksa
-                    const textData = await response.text(); 
-                    
-                    try {
-                        // Coba jadikan JSON
-                        const jsonData = JSON.parse(textData);
-                        return jsonData;
-                    } catch (e) {
-                        // Jika ERROR lagi (isinya bukan JSON), skrip ini akan mencetak isi teksnya
-                        // agar kita bisa melihat bentuk file HTML yang memblokirnya!
-                        throw new Error("Isi file bukan JSON! Isinya: \n\n" + textData.substring(0, 150) + "...");
-                    }
-                })
-                .then(data => {
-                    let m3uText = "#EXTM3U\n";
+            try {
+                // Membaca teks yang kamu paste sebagai JSON
+                const dataJSON = JSON.parse(inputTeks);
+                let m3uText = "#EXTM3U\n";
 
-                    // Mengurai JSON menjadi M3U
-                    data.forEach(channel => {
-                        m3uText += `#EXTINF:-1 tvg-name="${channel.name}" group-title="BitTV Otomatis", ${channel.name}\n`;
-                        m3uText += `#EXTVLCOPT:http-user-agent=okhttp/4.9.2\n`;
-                        m3uText += `${channel.url}|User-Agent=okhttp/4.9.2\n`;
-                    });
-
-                    // Cetak ke layar
-                    textArea.value = m3uText;
-                })
-                .catch(error => {
-                    textArea.value = "Yah error bro: " + error.message;
+                // Meracik setiap channel menjadi format M3U
+                dataJSON.forEach(channel => {
+                    m3uText += `#EXTINF:-1 tvg-name="${channel.name}" group-title="BitTV Hasil Tangkapan", ${channel.name}\n`;
+                    m3uText += `#EXTVLCOPT:http-user-agent=okhttp/4.9.2\n`;
+                    m3uText += `${channel.url}|User-Agent=okhttp/4.9.2\n`;
                 });
+
+                // Menampilkan hasil
+                outputKotak.value = m3uText;
+                alert("Sukses bro! Silakan copy hasil di kotak bawah.");
+
+            } catch (error) {
+                // Jika yang dipaste salah (ada teks aneh selain JSON)
+                alert("Yah error bro: Format JSON tidak valid. Pastikan kamu meng-copy semua teksnya dari tanda [ sampai tanda ] ya!");
+                outputKotak.value = "Error: " + error.message;
+            }
         }
     </script>
 
