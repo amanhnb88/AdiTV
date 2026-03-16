@@ -3,70 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BitTV Player Custom</title>
-    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <title>Generator M3U BitTV Bro</title>
     <style>
-        body { 
-            background-color: #0f0f0f; 
-            color: #00ffcc; 
-            text-align: center; 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-            padding: 20px;
-        }
-        h2 { margin-bottom: 20px; }
-        video { 
-            width: 100%; 
-            max-width: 800px; 
-            border: 3px solid #00ffcc; 
-            border-radius: 12px; 
-            box-shadow: 0 0 15px rgba(0, 255, 204, 0.5);
-        }
-        .status { margin-top: 15px; font-size: 14px; color: #ffeb3b; }
+        body { font-family: sans-serif; background-color: #222; color: #fff; padding: 20px; text-align: center; }
+        textarea { width: 100%; max-width: 800px; height: 400px; background-color: #111; color: #00ffcc; border: 2px solid #555; padding: 10px; font-family: monospace; }
+        button { padding: 10px 20px; font-size: 16px; background-color: #00ffcc; color: #000; border: none; cursor: pointer; font-weight: bold; border-radius: 5px; margin-bottom: 20px;}
+        button:hover { background-color: #00cca3; }
     </style>
 </head>
 <body>
 
-    <h2>📺 Live TV Custom Bro</h2>
-    <video id="video-tv" controls autoplay></video>
-    <div id="status-text" class="status">Menyiapkan video...</div>
+    <h2>🛠️ Generator Playlist BitTV ke M3U</h2>
+    <p>Klik tombol di bawah untuk mengambil data terbaru dari GitHub dan meraciknya menjadi M3U.</p>
+    
+    <button onclick="generateM3U()">Ambil & Ubah ke M3U</button>
+    <br>
+    <textarea id="hasil-m3u" placeholder="Hasil kode M3U akan muncul di sini..."></textarea>
 
     <script>
-        var video = document.getElementById('video-tv');
-        var statusText = document.getElementById('status-text');
-        
-        // Ini adalah LINK hasil tangkapanmu di PCAPdroid
-        var streamUrl = 'https://v2.bittv.my.id/getb/T3N3cnhZNW1uU2ZpNWZlbmNlR3Yxdz09'; 
+        // Ini adalah link Github induk yang kamu temukan!
+        const linkInduk = 'https://raw.githubusercontent.com/Bit-tv1/b/main/b.json';
 
-        if (Hls.isSupported()) {
-            var hls = new Hls();
-            
-            statusText.innerText = "Mencoba memuat stream...";
-            
-            hls.loadSource(streamUrl);
-            hls.attachMedia(video);
-            
-            hls.on(Hls.Events.MANIFEST_PARSED, function() {
-                statusText.innerText = "Stream berhasil dimuat! Selamat menonton.";
-                video.play();
-            });
+        function generateM3U() {
+            const textArea = document.getElementById('hasil-m3u');
+            textArea.value = "Sedang mengambil data dari server...";
 
-            // Menangkap error jika server menolak
-            hls.on(Hls.Events.ERROR, function (event, data) {
-                if (data.fatal) {
-                    statusText.innerText = "Yah error bro: " + data.type;
-                    statusText.style.color = "#ff5252";
-                }
-            });
-        } 
-        else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-            // Khusus pengguna Safari / iOS
-            video.src = streamUrl;
-            video.addEventListener('loadedmetadata', function() {
-                statusText.innerText = "Stream dimuat via Apple HLS.";
-                video.play();
-            });
-        } else {
-            statusText.innerText = "Browser kamu tidak mendukung pemutar ini.";
+            // Meminta data JSON ke Github
+            fetch(linkInduk)
+                .then(response => response.json())
+                .then(data => {
+                    // Mulai meracik teks M3U
+                    let m3uText = "#EXTM3U\n";
+
+                    // Melakukan perulangan untuk setiap channel di dalam JSON
+                    data.forEach(channel => {
+                        // Menambahkan nama channel
+                        m3uText += `#EXTINF:-1 tvg-name="${channel.name}" group-title="BitTV Otomatis", ${channel.name}\n`;
+                        
+                        // Menambahkan seragam rahasia (User-Agent) agar tidak diblokir
+                        m3uText += `#EXTVLCOPT:http-user-agent=okhttp/4.9.2\n`;
+                        
+                        // Menambahkan link videonya dengan User-Agent di belakangnya
+                        m3uText += `${channel.url}|User-Agent=okhttp/4.9.2\n`;
+                    });
+
+                    // Menampilkan hasilnya ke layar
+                    textArea.value = m3uText;
+                })
+                .catch(error => {
+                    textArea.value = "Yah error bro: " + error;
+                });
         }
     </script>
 
