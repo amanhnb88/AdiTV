@@ -1,1 +1,124 @@
+#EXTM3U 
+//========================================================================
+//Copyright by @Setiadi Lagista
+menampilkan playlist >>> INDONESIA
+//========================================================================
 
+
+
+
+EXTINF:-1 group-title="🇮🇩INDONESIA🇮🇩" tvg-id="seatoday.id" tvg-logo="https://seatoday.com/images/20241104093408_logo_45.png",SEA TODAY 
+#EXTVLCOPT:http-user-agent=ExoPlayer/2.19.1 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+https://hls.seatoday.com/hls_hd/seatoday.m3u8
+
+#EXTINF:-1 group-title="🇮🇩INDONESIA🇮🇩" tvg-id="seatoday.id" tvg-logo="https://akcdn.detik.net.id/community/media/visual/2019/06/28/a934c205-c4f9-40ff-b51a-c66439cf8aa1.png?d=1",DETIK TV HD (EVENT ONLY)
+#EXTVLCOPT:http-user-agent=ExoPlayer/2.19.1 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+https://video.detik.com/20detik/smil:20detik-live.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="🇮🇩INDONESIA🇮🇩" tvg-id="daaitv.id" tvg-logo="   ",DAAI TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36
+https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
+
+https://ibb.co/dwtM057q
+
+EXTINF:-1 tvg-logo="https://iili.io/JMp3pb2.png" group-title="    ",VTV HD
+#EXTVLCOPT:http-user-agent=YouTV/1.5.6-prod.release (Linux;Android 7.1.1) ExoPlayerLib/2.12.3
+https://flv.intechmedia.net/live/ch107.m3u8
+
+EXTINF:-1 group-title="Lokal" tvg-id="SIAKTV" tvg-logo="https://iptv.urfan.web.id/logo/siaktv.png",SIAK TV
+#EXTVLCOPT:http-user-agent=YouTV/1.8.1-prod.release+d73ba1cb (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+https://flv.intechmedia.net/live/ch60.m3u8
+
+EXTINF:-1 tvg-logo="https://iptv.urfan.web.id/logo/bn.png" group-title="🇮🇩 [ Indonesia ] 🇮🇩",BN CHANNEL
+https://flv.intechmedia.net/live/ch112.m3u8|user-agent=Mozilla/5.0
+
+SIMPANG 4 BARENG 
+https://stream.klaten.go.id:8080/cctv/hls/simpang4bareng_arahyogyakarta.m3u8|user-agent=Mozilla/5.0
+
+
+
+EXTINF:-1 tvg-logo="https://indonesiana.tv/_nuxt/img/logo-indonesianatv-fit.0d9697f.png" group-title="🇮🇩 [ Indonesia ] 🇮🇩",INDOSIANA TV MUSIK FLOOR HD
+https://63b2dc7196c38.streamlock.net:1937/musikfolklor/ngrp:musikfolklor_all/chunklist_w894916132_b1328000.m3u8
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXTINF:-1 tvg-id="CNN Indonesia.id" tvg-logo="https://cdn.cnnindonesia.com/cnnid/mobile/images/logo__cnn.webp?v=10.17.6" group-title="🇮🇩INDONESIA🇮🇩",CNN INDONESIA HD
+https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/master.m3u8
+
+#EXTINF:-1 tvg-logo="http://elshinta.co.id/public/assets/312f2-logo-elshinta.png" group-title="🇮🇩INDONESIA🇮🇩",ELSHINTA TV HD
+https://ams.juraganstreaming.com:5443/LiveApp/streams/elshintatv.m3u8
+
+EXTINF:-1 tvg-country="ID" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_CvwxK-FocJpNXfHSSrRKNwhWHqiQoNrGp064gg4l8A&s" group-title="🇮🇩INDONESIA🇮🇩",TEST SLOT HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://shorturl.asia/F9m2p
+
+http://36.94.24.229/0.flv
+
+
+https://hgmtv.com:19360/garudatvlivestreaming/1080p.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://iili.io/2lt6yl4.png" group-title="🇮🇩INDONESIA🇮🇩",GARUDA TV HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
+
+https://hgmtv.com:19360/garudatvlivestreaming/1080p.m3u8
+
+EXTINF:-1 tvg-logo="https://youtv.live/data/channel/jagantaratv-removebg-preview_20250605102337.png" group-title="🇮🇩INDONESIA🇮🇩",JAGANTARA HD INT
+https://flv.intechmedia.net/live/ch119.m3u8|user-agent=Mozilla/5.0
+
+EXTINF:-1 tvg-logo="  " group-title="🇮🇩INDONESIA🇮🇩",TV MU INT
+https://flv.intechmedia.net/live/ch103.m3u8|user-agent=Mozilla/5.0
+
+EXTINF:-1 tvg-logo="  " group-title="🇮🇩INDONESIA🇮🇩",METRO TV INT
+https://flv.intechmedia.net/live/ch101.m3u8|user-agent=Mozilla/5.0
+
+TVONE INT
+https://flv.intechmedia.net/live/ch109.m3u8|user-agent=Mozilla/5.0
+
+
+
+#EXTINF:-1 tvg-logo="https://iili.io/2UfuWSs.png" group-title="🇮🇩INDONESIA🇮🇩",BERITA SATU HD 
+#EXTVLCOPT:http-user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+https://beritasatu.secureswiftcontent.com/han/beritasatu/bsatu10008/srtoutput/manifest.m3u8
+
+#EXTINF:0 tvg-id="idtv" tvg-logo="ht" group-title="🇮🇩INDONESIA🇮🇩", BTV HD
+https://btv.secureswiftcontent.com/han/btv/btv10005/srtoutput/manifest.m3u8
+
+https://btv.secureswiftcontent.com/han/btv/btv10005/srtoutput/hvideo-1920x1080.m3u8
+
+
+https://btv.secureswiftcontent.com/han/btv/btv10005/srtoutput/haudio-eng.m3u8
+
+
+#EXTINF:0 tvg-id="idtv" tvg-logo="https://iili.io/2UfuWSs.png" group-title="🇮🇩INDONESIA🇮🇩",BERITA SATU (DENS)
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+https://op-group1-swiftservehd-1.dens.tv/h/h210/index.m3u8
+
+http://op-group1-swiftservehd-1.dens.tv/h/h20/index.m3u8
+
+EXTINF:0 tvg-id="tvrisport" tvg-logo="https://iptvsystem.my.id/img/tvrisport.png" group-title="🇮🇩 [ Indonesia ] 🇮🇩", TVRI Sport
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+http://op-group1-swiftservesd-1.dens.tv/s/s107/index.m3u8
+
+#EXTINF:0 tvg-id="tvrisport" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1735687940_tvchannels_v1.jpeg" group-title="🇮🇩INDONESIA🇮🇩", BTV DENS
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+https://op-group1-swiftservehd-1.dens.tv/h/h210/02.m3u8
+
+https://op-group1-swiftservehd-1.dens.tv/h/h210/01.m3u8
+
+
+#EXTINF:-1 tvg-id="Indonesiana TV" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium3.xml" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI4MneSVgEtCTr1bTcY2db9hW6VFIv8XOoZg&usqp=CAU" group-title="🇮🇩INDONESIA🇮🇩",INDOSIANA TV HD
+https://tvstreamcast.com/indonesiana.m3u8
+
+#EXTINF:0 tvg-id="ntv" tvg-logo="https://images.indihometv.com/logo_nusantaratv_small.png?v=1.1" group-title="🇮🇩INDONESIA🇮🇩", NUSANTARA TV (DENS)
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+http://op-group1-swiftservehd-1.dens.tv/h/h37/index.m3u8
+
+EXTINF:0 tvg-id="JC" tvg-logo="https://images.indihometv.com/logo_indonesiana_ver1.png" group-title="🇮🇩 [ Indon", Indonesiana TV[ DENSTV ]
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+http://op-group1-swiftservehd-1.dens.tv/h/h292/index.m3u8
