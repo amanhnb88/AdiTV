@@ -1,27 +1,27 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="RCTI.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/RCTI_2023.svg/320px-RCTI_2023.svg.png&w=600&h=337&fit=contain",RCTI
+#EXTINF:-1 tvg-id="RCTI.id@SD" tvg-logo="https://wsrv.nl/?url=https://mncvision.id/userfiles/image/channel/channel_80.png&w=600&h=337&fit=contain",RCTI
 http://103.66.62.83:8000/play/a00v/index.m3u8
-#EXTINF:-1 tvg-id="RCTI.id@HD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/RCTI_2023.svg/320px-RCTI_2023.svg.png&w=600&h=337&fit=contain",RCTI HD (720p)
+#EXTINF:-1 tvg-id="RCTI.id@HD" tvg-logo="https://wsrv.nl/?url=https://mncvision.id/userfiles/image/channel/channel_80.png&w=600&h=337&fit=contain",RCTI HD (720p)
 https://cdn10jtedge.indihometv.com/atm/DASH/rcti/manifest.mpd
-#EXTINF:-1 tvg-id="MNCTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/MNCTV_2024.svg/320px-MNCTV_2024.svg.png&w=600&h=337&fit=contain",MNCTV (720p)
+#EXTINF:-1 tvg-id="MNCTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://mncvision.id/userfiles/image/channel/channel_82.png&w=600&h=337&fit=contain",MNCTV (720p)
 https://cdn10jtedge.indihometv.com/atm/DASH/mnctv/manifest.mpd
-#EXTINF:-1 tvg-id="GTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/GTV_2024.svg/320px-GTV_2024.svg.png&w=600&h=337&fit=contain",GTV (720p)
+#EXTINF:-1 tvg-id="GTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://mncvision.id/userfiles/image/channel/channel_81.png&w=600&h=337&fit=contain",GTV (720p)
 https://cdn10jtedge.indihometv.com/atm/DASH/globaltv/manifest.mpd
-#EXTINF:-1 tvg-id="TransTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Trans_TV_2023.svg/320px-Trans_TV_2023.svg.png&w=600&h=337&fit=contain",Trans TV (720p)
+#EXTINF:-1 tvg-id="TransTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://mncvision.id/userfiles/image/channel/channel_87.png&w=600&h=337&fit=contain",Trans TV (720p)
 https://video.detik.com/transtv/smil:transtv.smil/index.m3u8
-#EXTINF:-1 tvg-id="Trans7.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Trans7_2023.svg/320px-Trans7_2023.svg.png&w=600&h=337&fit=contain",Trans7 (720p)
+#EXTINF:-1 tvg-id="Trans7.id@SD" tvg-logo="https://wsrv.nl/?url=https://mncvision.id/userfiles/image/channel/channel_110.png&w=600&h=337&fit=contain",Trans7 (720p)
 https://video.detik.com/trans7/smil:trans7.smil/index.m3u8
-#EXTINF:-1 tvg-id="MetroTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/MetroTV_2023.svg/320px-MetroTV_2023.svg.png&w=600&h=337&fit=contain",Metro TV
+#EXTINF:-1 tvg-id="MetroTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://mncvision.id/userfiles/image/channel/channel_107.png&w=600&h=337&fit=contain",Metro TV
 https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVRI.id@HD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/TVRI_2019.svg/320px-TVRI_2019.svg.png&w=600&h=337&fit=contain",TVRI (1080i)
+#EXTINF:-1 tvg-id="TVRI.id@HD" tvg-logo="https://wsrv.nl/?url=https://mncvision.id/userfiles/image/channel/channel_118.jpg&w=600&h=337&fit=contain",TVRI (1080i)
 https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
 #EXTINF:-1 tvg-id="RajawaliTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/RTV_2023.svg/320px-RTV_2023.svg.png&w=600&h=337&fit=contain",Rajawali TV
 https://rtvstream.rtv.co.id:4555/hls/rtv.m3u8
-#EXTINF:-1 tvg-id="JakTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Jak_tv_2023.svg/320px-Jak_tv_2023.svg.png&w=600&h=337&fit=contain",Jak TV (720p)
+#EXTINF:-1 tvg-id="JakTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://mncvision.id/userfiles/image/channel/channel_113.jpg&w=600&h=337&fit=contain",Jak TV (720p)
 https://cdn10jtedge.indihometv.com/atm/DASH/JAK_TV/manifest.mpd
 #EXTINF:-1 tvg-id="NusantaraTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Nusantara_TV_2023.svg/320px-Nusantara_TV_2023.svg.png&w=600&h=337&fit=contain",Nusantara TV (1080p)
 https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
-#EXTINF:-1 tvg-id="BTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/BTV_2023.svg/320px-BTV_2023.svg.png&w=600&h=337&fit=contain",BTV (720p)
+#EXTINF:-1 tvg-id="BTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://mncvision.id/userfiles/image/channel/channel_103.png&w=600&h=337&fit=contain",BTV (720p)
 https://btv.secureswiftcontent.com/han/btv/btv10005/srtoutput/manifest.m3u8
 #EXTINF:-1 tvg-id="VTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/VTV_2023.svg/320px-VTV_2023.svg.png&w=600&h=337&fit=contain",VTV (720p)
 #EXTVLCOPT:http-referrer=https://youtv.live/
@@ -34,7 +34,7 @@ https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
 #EXTINF:-1 tvg-id="BeritaSatuEnglish.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/BTV_2023.svg/320px-BTV_2023.svg.png&w=600&h=337&fit=contain",BeritaSatu English
 https://beritasatu.secureswiftcontent.com/han/beritasatu/bsatu10008/srtoutput/manifest.m3u8
-#EXTINF:-1 tvg-id="SindoNewsTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Sindonews_TV_2023.svg/320px-Sindonews_TV_2023.svg.png&w=600&h=337&fit=contain",Sindo News TV
+#EXTINF:-1 tvg-id="SindoNewsTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://mncvision.id/userfiles/image/channel/channel_84.png&w=600&h=337&fit=contain",Sindo News TV
 https://cdn10jtedge.indihometv.com/atm/DASH/mncnews/manifest.mpd
 #EXTINF:-1 tvg-id="SinPoTV.id@HD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sin_Po_TV_logo.svg/320px-Sin_Po_TV_logo.svg.png&w=600&h=337&fit=contain",Sin Po TV
 https://cdn10jtedge.indihometv.com/atm/DASH/sinpotv/manifest.mpd
@@ -56,7 +56,7 @@ https://mic.siar.us/mic/live/mic.m3u8
 #EXTINF:-1 tvg-id="IndonesianaTV.id@SD" tvg-logo="",Indonesiana.TV (720p)
 #EXTVLCOPT:http-referrer=https://indonesiana.tv/
 https://tvstreamcast.com/indonesiana.m3u8
-#EXTINF:-1 tvg-id="TVRI.id@Maluku" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/TVRI_2019.svg/320px-TVRI_2019.svg.png&w=600&h=337&fit=contain",TVRI Maluku (480p)
+#EXTINF:-1 tvg-id="TVRI.id@Maluku" tvg-logo="https://wsrv.nl/?url=https://mncvision.id/userfiles/image/channel/channel_118.jpg&w=600&h=337&fit=contain",TVRI Maluku (480p)
 https://ott-balancer.tvri.go.id/live/eds/Ambon/hls/Ambon.m3u8
 #EXTINF:-1 tvg-id="TVRISport.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TVRI_Sport_2019.svg/320px-TVRI_Sport_2019.svg.png&w=600&h=337&fit=contain",TVRI Sport (720p)
 https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
