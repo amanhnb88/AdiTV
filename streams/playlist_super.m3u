@@ -1,66 +1,66 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="RCTI.id@SD",RCTI
+#EXTINF:-1 tvg-id="RCTI.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/RCTI_2023.svg/320px-RCTI_2023.svg.png",RCTI
 http://103.66.62.83:8000/play/a00v/index.m3u8
-#EXTINF:-1 tvg-id="RCTI.id@HD",RCTI HD (720p)
+#EXTINF:-1 tvg-id="RCTI.id@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/RCTI_2023.svg/320px-RCTI_2023.svg.png",RCTI HD (720p)
 https://cdn10jtedge.indihometv.com/atm/DASH/rcti/manifest.mpd
-#EXTINF:-1 tvg-id="MNCTV.id@SD",MNCTV (720p)
+#EXTINF:-1 tvg-id="MNCTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/MNCTV_2024.svg/320px-MNCTV_2024.svg.png",MNCTV (720p)
 https://cdn10jtedge.indihometv.com/atm/DASH/mnctv/manifest.mpd
-#EXTINF:-1 tvg-id="GTV.id@SD",GTV (720p)
+#EXTINF:-1 tvg-id="GTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/GTV_2024.svg/320px-GTV_2024.svg.png",GTV (720p)
 https://cdn10jtedge.indihometv.com/atm/DASH/globaltv/manifest.mpd
-#EXTINF:-1 tvg-id="TransTV.id@SD",Trans TV (720p)
+#EXTINF:-1 tvg-id="TransTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Trans_TV_2023.svg/320px-Trans_TV_2023.svg.png",Trans TV (720p)
 https://video.detik.com/transtv/smil:transtv.smil/index.m3u8
-#EXTINF:-1 tvg-id="Trans7.id@SD",Trans7 (720p)
+#EXTINF:-1 tvg-id="Trans7.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Trans7_2023.svg/320px-Trans7_2023.svg.png",Trans7 (720p)
 https://video.detik.com/trans7/smil:trans7.smil/index.m3u8
-#EXTINF:-1 tvg-id="MetroTV.id@SD",Metro TV
+#EXTINF:-1 tvg-id="MetroTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/MetroTV_2023.svg/320px-MetroTV_2023.svg.png",Metro TV
 https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVRI.id@HD",TVRI (1080i)
+#EXTINF:-1 tvg-id="TVRI.id@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/TVRI_2019.svg/320px-TVRI_2019.svg.png",TVRI (1080i)
 https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
-#EXTINF:-1 tvg-id="RajawaliTV.id@SD",Rajawali TV
+#EXTINF:-1 tvg-id="RajawaliTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/RTV_2023.svg/320px-RTV_2023.svg.png",Rajawali TV
 https://rtvstream.rtv.co.id:4555/hls/rtv.m3u8
-#EXTINF:-1 tvg-id="JakTV.id@SD",Jak TV (720p)
+#EXTINF:-1 tvg-id="JakTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Jak_tv_2023.svg/320px-Jak_tv_2023.svg.png",Jak TV (720p)
 https://cdn10jtedge.indihometv.com/atm/DASH/JAK_TV/manifest.mpd
-#EXTINF:-1 tvg-id="NusantaraTV.id@SD",Nusantara TV (1080p)
+#EXTINF:-1 tvg-id="NusantaraTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Nusantara_TV_2023.svg/320px-Nusantara_TV_2023.svg.png",Nusantara TV (1080p)
 https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
-#EXTINF:-1 tvg-id="BTV.id@SD",BTV (720p)
+#EXTINF:-1 tvg-id="BTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/BTV_2023.svg/320px-BTV_2023.svg.png",BTV (720p)
 https://btv.secureswiftcontent.com/han/btv/btv10005/srtoutput/manifest.m3u8
-#EXTINF:-1 tvg-id="VTV.id@SD",VTV (720p)
+#EXTINF:-1 tvg-id="VTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/VTV_2023.svg/320px-VTV_2023.svg.png",VTV (720p)
 #EXTVLCOPT:http-referrer=https://youtv.live/
 https://flv.intechmedia.net/live/ch107.m3u8
-#EXTINF:-1 tvg-id="VTV.id@SD",VTV (1080p)
+#EXTINF:-1 tvg-id="VTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/VTV_2023.svg/320px-VTV_2023.svg.png",VTV (1080p)
 http://103.66.62.83:8000/play/a00c/index.m3u8
-#EXTINF:-1 tvg-id="GarudaTV.id@SD",Garuda TV (1080p)
+#EXTINF:-1 tvg-id="GarudaTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Garuda_TV_2023.svg/320px-Garuda_TV_2023.svg.png",Garuda TV (1080p)
 https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
-#EXTINF:-1 tvg-id="CNBCIndonesia.id@SD",CNBC Indonesia (720p)
+#EXTINF:-1 tvg-id="CNBCIndonesia.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/CNBC_Indonesia_2023.svg/320px-CNBC_Indonesia_2023.svg.png",CNBC Indonesia (720p)
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
-#EXTINF:-1 tvg-id="BeritaSatuEnglish.id@SD",BeritaSatu English
+#EXTINF:-1 tvg-id="BeritaSatuEnglish.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/BTV_2023.svg/320px-BTV_2023.svg.png",BeritaSatu English
 https://beritasatu.secureswiftcontent.com/han/beritasatu/bsatu10008/srtoutput/manifest.m3u8
-#EXTINF:-1 tvg-id="SindoNewsTV.id@SD",Sindo News TV
+#EXTINF:-1 tvg-id="SindoNewsTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Sindonews_TV_2023.svg/320px-Sindonews_TV_2023.svg.png",Sindo News TV
 https://cdn10jtedge.indihometv.com/atm/DASH/mncnews/manifest.mpd
-#EXTINF:-1 tvg-id="SinPoTV.id@HD",Sin Po TV
+#EXTINF:-1 tvg-id="SinPoTV.id@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sin_Po_TV_logo.svg/320px-Sin_Po_TV_logo.svg.png",Sin Po TV
 https://cdn10jtedge.indihometv.com/atm/DASH/sinpotv/manifest.mpd
-#EXTINF:-1 tvg-id="JakartaGlobeNewsChannel.id@SD",Jakarta Globe News Channel (1080p)
+#EXTINF:-1 tvg-id="JakartaGlobeNewsChannel.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/BTV_2023.svg/320px-BTV_2023.svg.png",Jakarta Globe News Channel (1080p)
 https://jktglobe.secureswiftcontent.com/han/jktglobe/jktglobe/srtoutput/manifest.m3u8
-#EXTINF:-1 tvg-id="MagnaChannel.id@SD",Magna Channel (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="MagnaChannel.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Magna_Channel_2023.svg/320px-Magna_Channel_2023.svg.png",Magna Channel (1080p) [Not 24/7]
 https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="IDXChannel.id@SD",IDX Channel (720p)
+#EXTINF:-1 tvg-id="IDXChannel.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/IDX_Channel_2023.svg/320px-IDX_Channel_2023.svg.png",IDX Channel (720p)
 https://cdn10jtedge.indihometv.com/atm/DASH/idx/manifest.mpd
-#EXTINF:-1 tvg-id="BiznetAdventure.id@SD",Biznet Adventure (1080p)
+#EXTINF:-1 tvg-id="BiznetAdventure.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Biznet_Networks_logo.svg/320px-Biznet_Networks_logo.svg.png",Biznet Adventure (1080p)
 http://livestream.biznetvideo.net/biznet_adventure/smil:adventure.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="BiznetKids.id@SD",Biznet Kids (1080p)
+#EXTINF:-1 tvg-id="BiznetKids.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Biznet_Networks_logo.svg/320px-Biznet_Networks_logo.svg.png",Biznet Kids (1080p)
 http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/index.m3u8
-#EXTINF:-1 tvg-id="BiznetLifestyle.id@SD",Biznet Lifestyle (1080p)
+#EXTINF:-1 tvg-id="BiznetLifestyle.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Biznet_Networks_logo.svg/320px-Biznet_Networks_logo.svg.png",Biznet Lifestyle (1080p)
 http://livestream.biznetvideo.net/biznet_lifestyle/smil:lifestyle.smil/index.m3u8
-#EXTINF:-1 tvg-id="MusicInformationChannel.id@SD",Music Information Channel (720p)
+#EXTINF:-1 tvg-id="MusicInformationChannel.id@SD" tvg-logo="",Music Information Channel (720p)
 #EXTVLCOPT:http-referrer=https://mic-indo.com/live
 https://mic.siar.us/mic/live/mic.m3u8
-#EXTINF:-1 tvg-id="IndonesianaTV.id@SD",Indonesiana.TV (720p)
+#EXTINF:-1 tvg-id="IndonesianaTV.id@SD" tvg-logo="",Indonesiana.TV (720p)
 #EXTVLCOPT:http-referrer=https://indonesiana.tv/
 https://tvstreamcast.com/indonesiana.m3u8
-#EXTINF:-1 tvg-id="TVRI.id@Maluku",TVRI Maluku (480p)
+#EXTINF:-1 tvg-id="TVRI.id@Maluku" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/TVRI_2019.svg/320px-TVRI_2019.svg.png",TVRI Maluku (480p)
 https://ott-balancer.tvri.go.id/live/eds/Ambon/hls/Ambon.m3u8
-#EXTINF:-1 tvg-id="TVRISport.id@SD",TVRI Sport (720p)
+#EXTINF:-1 tvg-id="TVRISport.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TVRI_Sport_2019.svg/320px-TVRI_Sport_2019.svg.png",TVRI Sport (720p)
 https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
-#EXTINF:-1 tvg-id="TVRIWorld.id@SD",TVRI World
+#EXTINF:-1 tvg-id="TVRIWorld.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/TVRI_World_2021.svg/320px-TVRI_World_2021.svg.png",TVRI World
 https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
-#EXTINF:-1 tvg-id="TVRParlemen.id@SD",TVR Parlemen (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="TVRParlemen.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TVR_Parlemen_2020.svg/320px-TVR_Parlemen_2020.svg.png",TVR Parlemen (720p) [Not 24/7]
 http://103.18.181.69:1935/golive/livestream/playlist.m3u8
