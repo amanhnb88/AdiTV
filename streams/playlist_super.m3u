@@ -3,11 +3,11 @@
 http://103.66.62.83:8000/play/a00v/index.m3u8
 #EXTINF:-1 tvg-id="RCTI.id@HD" tvg-logo="",RCTI HD (720p)
 https://cdn10jtedge.indihometv.com/atm/DASH/rcti/manifest.mpd
-#EXTINF:-1 tvg-id="MNCTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c4/Mnctv.png",MNCTV (720p)
+#EXTINF:-1 tvg-id="MNCTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/c/c4/Mnctv.png&w=600&h=337&fit=contain",MNCTV (720p)
 https://cdn10jtedge.indihometv.com/atm/DASH/mnctv/manifest.mpd
-#EXTINF:-1 tvg-id="GTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/39/GTV_logo_%282017%29.png",GTV (720p)
+#EXTINF:-1 tvg-id="GTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/3/39/GTV_logo_%282017%29.png&w=600&h=337&fit=contain",GTV (720p)
 https://cdn10jtedge.indihometv.com/atm/DASH/globaltv/manifest.mpd
-#EXTINF:-1 tvg-id="TransTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c2/Logo_Trans_TV.png",Trans TV (720p)
+#EXTINF:-1 tvg-id="TransTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/c/c2/Logo_Trans_TV.png&w=600&h=337&fit=contain",Trans TV (720p)
 https://video.detik.com/transtv/smil:transtv.smil/index.m3u8
 #EXTINF:-1 tvg-id="Trans7.id@SD" tvg-logo="",Trans7 (720p)
 https://video.detik.com/trans7/smil:trans7.smil/index.m3u8
@@ -19,22 +19,22 @@ https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
 https://rtvstream.rtv.co.id:4555/hls/rtv.m3u8
 #EXTINF:-1 tvg-id="JakTV.id@SD" tvg-logo="",Jak TV (720p)
 https://cdn10jtedge.indihometv.com/atm/DASH/JAK_TV/manifest.mpd
-#EXTINF:-1 tvg-id="NusantaraTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3f/Nusantara_TV.png",Nusantara TV (1080p)
+#EXTINF:-1 tvg-id="NusantaraTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/3/3f/Nusantara_TV.png&w=600&h=337&fit=contain",Nusantara TV (1080p)
 https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
-#EXTINF:-1 tvg-id="BTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fb/LogoBTV.png",BTV (720p)
+#EXTINF:-1 tvg-id="BTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/f/fb/LogoBTV.png&w=600&h=337&fit=contain",BTV (720p)
 https://btv.secureswiftcontent.com/han/btv/btv10005/srtoutput/manifest.m3u8
-#EXTINF:-1 tvg-id="VTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7b/VTV_Indonesia_red.png",VTV (720p)
+#EXTINF:-1 tvg-id="VTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/7/7b/VTV_Indonesia_red.png&w=600&h=337&fit=contain",VTV (720p)
 #EXTVLCOPT:http-referrer=https://youtv.live/
 https://flv.intechmedia.net/live/ch107.m3u8
-#EXTINF:-1 tvg-id="VTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7b/VTV_Indonesia_red.png",VTV (1080p)
+#EXTINF:-1 tvg-id="VTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/7/7b/VTV_Indonesia_red.png&w=600&h=337&fit=contain",VTV (1080p)
 http://103.66.62.83:8000/play/a00c/index.m3u8
-#EXTINF:-1 tvg-id="GarudaTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2d/Logo_GarudaTV_3D_Putih_Silver_Merah.png",Garuda TV (1080p)
+#EXTINF:-1 tvg-id="GarudaTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/2/2d/Logo_GarudaTV_3D_Putih_Silver_Merah.png&w=600&h=337&fit=contain",Garuda TV (1080p)
 https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
 #EXTINF:-1 tvg-id="CNBCIndonesia.id@SD" tvg-logo="",CNBC Indonesia (720p)
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
-#EXTINF:-1 tvg-id="BeritaSatuEnglish.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f1/BeritaSatuWorld.png",BeritaSatu English
+#EXTINF:-1 tvg-id="BeritaSatuEnglish.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/f/f1/BeritaSatuWorld.png&w=600&h=337&fit=contain",BeritaSatu English
 https://beritasatu.secureswiftcontent.com/han/beritasatu/bsatu10008/srtoutput/manifest.m3u8
-#EXTINF:-1 tvg-id="SindoNewsTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5d/SindoNewsTV_2023.png",Sindo News TV
+#EXTINF:-1 tvg-id="SindoNewsTV.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/5/5d/SindoNewsTV_2023.png&w=600&h=337&fit=contain",Sindo News TV
 https://cdn10jtedge.indihometv.com/atm/DASH/mncnews/manifest.mpd
 #EXTINF:-1 tvg-id="SinPoTV.id@HD" tvg-logo="",Sin Po TV
 https://cdn10jtedge.indihometv.com/atm/DASH/sinpotv/manifest.mpd
@@ -42,7 +42,7 @@ https://cdn10jtedge.indihometv.com/atm/DASH/sinpotv/manifest.mpd
 https://jktglobe.secureswiftcontent.com/han/jktglobe/jktglobe/srtoutput/manifest.m3u8
 #EXTINF:-1 tvg-id="MagnaChannel.id@SD" tvg-logo="",Magna Channel (1080p) [Not 24/7]
 https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="IDXChannel.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cb/IDX_Channel.png",IDX Channel (720p)
+#EXTINF:-1 tvg-id="IDXChannel.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/c/cb/IDX_Channel.png&w=600&h=337&fit=contain",IDX Channel (720p)
 https://cdn10jtedge.indihometv.com/atm/DASH/idx/manifest.mpd
 #EXTINF:-1 tvg-id="BiznetAdventure.id@SD" tvg-logo="",Biznet Adventure (1080p)
 http://livestream.biznetvideo.net/biznet_adventure/smil:adventure.smil/playlist.m3u8
@@ -62,5 +62,5 @@ https://ott-balancer.tvri.go.id/live/eds/Ambon/hls/Ambon.m3u8
 https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
 #EXTINF:-1 tvg-id="TVRIWorld.id@SD" tvg-logo="",TVRI World
 https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
-#EXTINF:-1 tvg-id="TVRParlemen.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2c/TVR_Parlemen.jpg",TVR Parlemen (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="TVRParlemen.id@SD" tvg-logo="https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/2/2c/TVR_Parlemen.jpg&w=600&h=337&fit=contain",TVR Parlemen (720p) [Not 24/7]
 http://103.18.181.69:1935/golive/livestream/playlist.m3u8
