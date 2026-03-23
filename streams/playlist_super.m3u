@@ -40,13 +40,8 @@ https://cdn10jtedge.indihometv.com/atm/DASH/mncnews/manifest.mpd
 https://cdn10jtedge.indihometv.com/atm/DASH/sinpotv/manifest.mpd
 #EXTINF:-1 tvg-id="JakartaGlobeNewsChannel.id@SD",Jakarta Globe News Channel (1080p)
 https://jktglobe.secureswiftcontent.com/han/jktglobe/jktglobe/srtoutput/manifest.m3u8
-#EXTINF:-1 tvg-id="BNChannel.id@SD",BN Channel (720p)
-#EXTVLCOPT:http-referrer=https://youtv.live/
-https://flv.intechmedia.net/live/ch112.m3u8
 #EXTINF:-1 tvg-id="MagnaChannel.id@SD",Magna Channel (1080p) [Not 24/7]
 https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="MetroGlobeNetwork.id@SD",Metro Globe Network (1080p) [Not 24/7]
-https://edge.medcom.id/live-edge/smil:mgnch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="IDXChannel.id@SD",IDX Channel (720p)
 https://cdn10jtedge.indihometv.com/atm/DASH/idx/manifest.mpd
 #EXTINF:-1 tvg-id="BiznetAdventure.id@SD",Biznet Adventure (1080p)
@@ -55,8 +50,6 @@ http://livestream.biznetvideo.net/biznet_adventure/smil:adventure.smil/playlist.
 http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/index.m3u8
 #EXTINF:-1 tvg-id="BiznetLifestyle.id@SD",Biznet Lifestyle (1080p)
 http://livestream.biznetvideo.net/biznet_lifestyle/smil:lifestyle.smil/index.m3u8
-#EXTINF:-1 tvg-id="KidsTV.id@SD",Kids TV
-http://origin5.mediacdn.ru/live/kidstv/index.m3u8
 #EXTINF:-1 tvg-id="MusicInformationChannel.id@SD",Music Information Channel (720p)
 #EXTVLCOPT:http-referrer=https://mic-indo.com/live
 https://mic.siar.us/mic/live/mic.m3u8
