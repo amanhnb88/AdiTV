@@ -2,16 +2,16 @@
 #EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png" group-title="TV Nasional", RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1775856766~hmac=5ba1dfe3143ed4e0280657458d5ef1887edaf9de3d6182893c634699ccfe19de
+https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1775858924~hmac=668c2f3d1513e9c80cb3c45027bfe59f2d0c699c4209b7982ffbe10157cb936f
 #EXTINF:-1 tvg-id="MNCTV" tvg-name="MNCTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png" group-title="TV Nasional", MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://nt-linier.rctiplus.id/live/livereaction.m3u8
+https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1775858924~hmac=f981410a9667d0c252f411d2c09a5a702b108f06650da8180e025ddc593c1576
 #EXTINF:-1 tvg-id="GTV" tvg-name="GTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png" group-title="TV Nasional", GTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1775856767~hmac=0a37044bfd0f910311f9074a8a5d6d654e42227f326f30c6fc626c07f5d76c60
+https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1775858924~hmac=c12cea689256194e304e22b078f77dfd11788101a0a5aa134056e0a526bda707
 #EXTINF:-1 tvg-id="iNews" tvg-name="iNews" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png" group-title="TV Nasional", iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1775856767~hmac=a8407f2d6ef7cca4a279d425dc47416ce91dd5c8818d4e6bc92e5a797e8c9006
+https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1775858925~hmac=6f728b8ab7d56e2861690e5c8affe0e5fe2334209370a6869e7077b6e00b3fee
