@@ -2,12 +2,12 @@
 #EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png" group-title="TV Nasional", RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1787454159~hmac=466147ba09381bd6f31586a1902ae5940ff9f944231c60c90dca0fe7d4e68c33
+https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1787455744~hmac=3e0ed725fbec2f19b94b5051316f7f625c890edc93bfc9ab9b9e470b8c773297
 #EXTINF:-1 tvg-id="MNCTV" tvg-name="MNCTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png" group-title="TV Nasional", MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1787454159~hmac=f88c3619ba0b755c296f62ad150d30fc3c58f82257ad648c23065770187e4e6a
+https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1787455744~hmac=6bc55308ba07a16d1344a2fce8c9f32934688fab0143e6d20812b7dbb9fd83ab
 #EXTINF:-1 tvg-id="iNews" tvg-name="iNews" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png" group-title="TV Nasional", iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1787454160~hmac=e028c6fdd7dfa4f686e25dcbee99da17d984b678f04d0b9c32b290f55efac369
+https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1787455745~hmac=171c5f72de042a0ac56edf4dac54f1bc1d3f3ff462828cc3f3d5bcf1179d3197
