@@ -2,16 +2,12 @@
 #EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png" group-title="TV Nasional", RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://proxy-b.rctiplus.id/live/mweb/rcti/index.m3u8?auth_key=1794224516-f7175d58d1ea3ce4061fff933883316e-0-406704adcc3623caa9972a494ad255f8
+https://proxy-b.rctiplus.id/live/mweb/rcti/index.m3u8?auth_key=1794262130-ef9e7a54e14d9c1407fe08a213aed15e-0-8dd7c70fc3ff59aac7234706d4e8a617
 #EXTINF:-1 tvg-id="MNCTV" tvg-name="MNCTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png" group-title="TV Nasional", MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://proxy-b.rctiplus.id/live/mweb/mnctv/index.m3u8?auth_key=1794224516-c344064f5653540b48f0c180b1b3ae49-0-b5ec860f708a071626ea101a157d3095
-#EXTINF:-1 tvg-id="GTV" tvg-name="GTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png" group-title="TV Nasional", GTV
-#EXTVLCOPT:http-referrer=https://m.rctiplus.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://proxy-b.rctiplus.id/live/mweb/gtv/index.m3u8?auth_key=1794224516-4f3c02ced2de09c8beddf1df66e78ddd-0-7cdcb0adb1f282337d7cce5610752225
+https://proxy-b.rctiplus.id/live/mweb/mnctv/index.m3u8?auth_key=1794262131-10592e772c6fa4a6b69a9eea3c9ebcb2-0-37de6c0f3bbe52895289c8be6abba3d6
 #EXTINF:-1 tvg-id="iNews" tvg-name="iNews" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png" group-title="TV Nasional", iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://proxy-b.rctiplus.id/live/mweb/inews/index.m3u8?auth_key=1794224516-23b4166a9c5f832e721066c8a57e55bd-0-12020df9af59be05ac80fb64243081a2
+https://proxy-b.rctiplus.id/live/mweb/inews/index.m3u8?auth_key=1794262131-9be95e5e47005df4288782c8af1dfbea-0-73c8c2bee1c8ea16a9f19a014bac9733
